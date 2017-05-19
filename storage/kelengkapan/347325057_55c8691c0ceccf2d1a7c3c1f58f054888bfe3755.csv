@@ -1,0 +1,722 @@
+"16","2","1","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"17","2","1","2","Foto copy IPR",,NULL,NULL,NULL
+"18","2","1","3","Surat pernyataan kebenaran dokumen, tanah tidak dalam sengketa, management tidak dalam permasalahan",,NULL,NULL,NULL
+"19","2","1","4","Draft dukomen lingkungan (Amdal/UKL-UPL) 2 buah",,NULL,NULL,NULL
+"20","2","1","5","Surat kuasa pengurusan izin (bagi yang menggunakan kuasa)",,NULL,NULL,NULL
+"21","3","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"22","3","0","2","Foto copy KTP (Kitas/Paspor untuk WNA)",,NULL,NULL,NULL
+"23","3","0","3","Foto copy NPWP",,NULL,NULL,NULL
+"24","3","0","4","Surat pernyataan kebenaran dokumen, tanah tidak dalam sengketa, management tidak dalam permasalahan",,NULL,NULL,NULL
+"25","3","0","5","Pertimbangan Teknis Pertanahan",,NULL,NULL,NULL
+"26","3","0","6","Surat kuasa pengurusan izin (bagi yang menggunakan kuasa)",,NULL,NULL,NULL
+"27","4","1","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"28","4","0","2","Foto copy KTP (Kitas/Paspor untuk WNA)",,NULL,NULL,NULL
+"29","4","0","3","Foto copy NPWP",,NULL,NULL,NULL
+"30","4","0","4","Surat pernyataan kebenaran dokumen, tanah tidak dalam sengketa, management tidak dalam permasalahan",,NULL,NULL,NULL
+"31","4","0","5","Pertimbangan Teknis Pertanahan",,NULL,NULL,NULL
+"32","4","0","6","Surat kuasa pengurusan izin (bagi yang menggunakan kuasa)",,NULL,NULL,NULL
+"33","5","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"34","5","0","2","Foto copy KTP ",,NULL,NULL,NULL
+"35","5","0","3","Fotocopy izin-izin penunjang usaha yaitu IPR dan izin lingkungan beserta dokumen lingkungannya/SPPL",,NULL,NULL,NULL
+"36","5","0","4","Surat pernyataan kebenaran dokumen, tanah tidak dalam sengketa, management tidak dalam permasalahan",,NULL,NULL,NULL
+"37","5","0","5","Gambar teknis IMB dengan ukuran kertas A3",,NULL,NULL,NULL
+"38","5","0","6","Surat kuasa pengurusan izin (bagi yang menggunakan kuasa)",,NULL,NULL,NULL
+"39","6","0","1"," Pengantar Camat Setempat",,NULL,NULL,NULL
+"40","6","0","2","Foto copy KTP ",,NULL,NULL,NULL
+"41","6","0","3","Foto copy izin-izin penunjang usaha yaitu IPR (untuk Permohonan SITU tidak wajib), izin lingkungan/SPPL dan IMB lengkap dengan gambarnya",,NULL,NULL,NULL
+"42","6","0","4","Surat pernyataan kebenaran dokumen, tanah tidak dalam sengketa, management tidak dalam permasalahan",,NULL,NULL,NULL
+"43","6","0","5","Daftar nilai investasi diluar tanah dan bangunan (khusus untuk permohonan izin gangguan)",,NULL,NULL,NULL
+"44","6","0","6","Laporan Kegatiatan Penanaman Modal (LKPM) (khusus untuk permohonan izin gangguan)",,NULL,NULL,NULL
+"45","6","0","7","Surat kuasa pengurusan izin ",,NULL,NULL,NULL
+"46","7","0","1"," Pengantar Camat Setempat",,NULL,NULL,NULL
+"47","7","0","2","Foto copy KTP ",,NULL,NULL,NULL
+"48","7","0","3","Foto copy izin-izin penunjang usaha yaitu IPR (untuk Permohonan SITU tidak wajib), izin lingkungan/SPPL dan IMB lengkap dengan gambarnya",,NULL,NULL,NULL
+"49","7","0","4","Surat pernyataan kebenaran dokumen, tanah tidak dalam sengketa, management tidak dalam permasalahan",,NULL,NULL,NULL
+"50","7","0","5","Daftar nilai investasi diluar tanah dan bangunan (khusus untuk permohonan izin gangguan)",,NULL,NULL,NULL
+"51","7","0","6","Laporan Kegatiatan Penanaman Modal (LKPM) (khusus untuk permohonan izin gangguan)",,NULL,NULL,NULL
+"52","7","0","7","Surat kuasa pengurusan izin ",,NULL,NULL,NULL
+"53","8","0","1"," Pengantar Camat Setempat",,NULL,NULL,NULL
+"54","8","0","2","Foto copy KTP ",,NULL,NULL,NULL
+"55","8","0","3","Foto copy izin-izin penunjang usaha yaitu IPR (untuk Permohonan SITU tidak wajib), izin lingkungan/SPPL dan IMB lengkap dengan gambarnya",,NULL,NULL,NULL
+"56","8","0","4","Surat pernyataan kebenaran dokumen, tanah tidak dalam sengketa, management tidak dalam permasalahan",,NULL,NULL,NULL
+"57","8","0","5","Surat kuasa pengurusan izin ",,NULL,NULL,NULL
+"58","9","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"59","9","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"60","9","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"61","9","0","4","Fotocopy izin-izin penunjang usaha (IPR, rekomendasi dokumen lingkungan berupa Amdal/UKL-UPL/SPPL, IMB, SITU dan/ atau izin gangguan)",,NULL,NULL,NULL
+"62","9","0","5","Fotocopy izin usaha dan TDP",,NULL,NULL,NULL
+"63","9","0","6","Fotocopy akta pendirian perusahaan dan pengesahannya (PT, CV, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"64","9","0","7","Rekomendasi pertamina (untuk SPBU, SPPBE)/faktur pembelian dari agen resmi pertamina (bagi industri) terkait kapasitas penyimpanan",,NULL,NULL,NULL
+"65","9","0","8","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"66","10","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"67","10","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"68","10","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"69","10","0","4","Fotocopy izin-izin penunjang usaha (IPR, rekomendasi dokumen lingkungan berupa Amdal/UKL-UPL/SPPL, IMB, SITU dan/ atau izin gangguan)",,NULL,NULL,NULL
+"70","10","0","5","Fotocopy akta pendirian perusahaan dan pengesahannya (PT, CV, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"71","10","0","6","Foto berwarna dengan baju berkerah (4 x 6 = 2 lembar)",,NULL,NULL,NULL
+"72","10","0","7","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"73","11","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"74","11","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"75","11","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"76","11","0","4","Fotocopy akta pendirian perusahaan dan pengesahannya (PT, CV, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"77","11","0","5","Fotocopy izin penunjang usaha (IPR, IMB, izin lokasi untuk usaha yang menggunakan lahan dengan luas 1 hektar atau lebih / izin penetapan lokasi bagi bangunan milik pemerintah, izin lingkungan, rekomendasi pengelolaan lingkungan berupa SPPL UKL-UPL/Amdal, izin gangguan)",,NULL,NULL,NULL
+"78","11","0","6","Foto berwarna dengan baju berkerah (4 x 6 = 2 lembar)",,NULL,NULL,NULL
+"79","11","0","7","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"80","12","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"81","12","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"82","12","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"83","12","0","4","Fotocopy akta pendirian perusahaan dan pengesahannya (PT, CV, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"84","12","0","5","Foto copy izin penunjang usaha",,NULL,NULL,NULL
+"85","12","0","6","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"86","13","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"87","13","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"88","13","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"89","13","0","4","Pengantar dari UPT kecamatan setempat",,NULL,NULL,NULL
+"90","13","0","5","Rekomendasi dari Dinas Peternakan, Kelautan dan Perikanan Kab. Karangasem",,NULL,NULL,NULL
+"91","13","0","6","Fotocopy izin penunjang usaha",,NULL,NULL,NULL
+"92","13","0","7","Fotocopy akta pendirian perusahaan dan pengesahannya (PT, CV, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"93","13","0","8","Foto berwarna dengan baju berkerah (4 x 6 = 2 lembar)",,NULL,NULL,NULL
+"94","13","0","9","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"95","14","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"96","14","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"97","14","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"98","14","0","4","Fotocopy izin-izin penunjang usaha (IPR, rekomendasi dokumen lingkungan berupa Amdal/UKL-UPL/SPPL, IMB, SITU dan/ atau izin gangguan)",,NULL,NULL,NULL
+"99","14","0","5","Surat keterangan hewan yang akan dipotong dalam keadaan sehat (dari petugas yang berwenang)",,NULL,NULL,NULL
+"100","14","0","6","Surat keterangan higinies (tempat pemotongan yang dipakai dalam keadaan higienis ) dari petugas yang berwenang",,NULL,NULL,NULL
+"101","14","0","7","Foto berwarna dengan baju berkerah (4 x 6 = 2 lembar)",,NULL,NULL,NULL
+"102","14","0","8","Rekomendasi dari Kepala Dinas Peternakan, Kelautan dan Perikanan Kab. Karangasem",,NULL,NULL,NULL
+"103","14","0","9","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"104","15","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"105","15","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"106","15","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"107","15","0","4","Surat Pernyataan Pengelolaan Lingkungan / SPPL",,NULL,NULL,NULL
+"108","15","0","5","Fotocopy akta pendirian perusahaan dan pengesahannya (PT, CV, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"109","15","0","6","Bukti kepemilikan lahan/bukti pembayaran pajak tahun berjalan ",,NULL,NULL,NULL
+"110","15","0","7","Perjanjian/ikatan awal dengan pemilik lahan apabila lahan bukan milik pemohon",,NULL,NULL,NULL
+"111","15","0","8","Foto berwarna dengan baju berkerah (4 x 6 = 2 lembar)",,NULL,NULL,NULL
+"112","15","0","9","Tenaga penanggung jawab toko obat hewan",,NULL,NULL,NULL
+"113","15","0","10","Daftar sarana/peralatan untuk melakukan kegiatan usaha",,NULL,NULL,NULL
+"114","15","0","11","Daftar obat-obatan yang diusahakan",,NULL,NULL,NULL
+"115","15","0","12","Denah lokasi",,NULL,NULL,NULL
+"116","15","0","13","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"117","16","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"118","16","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"119","16","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"120","16","0","4","Fotocopy izin penunjang usaha (SPPL)",,NULL,NULL,NULL
+"121","16","0","5","Akta pendirian perusahaan dan pengesahannya (PT, CV, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"122","16","0","6","Rekomendasi Kepala Dinas Peternakan, Kelautan dan Perikanan Kab. Karangasem",,NULL,NULL,NULL
+"123","16","0","7","Rekomendasi dari Asosiasi Obat Hewan Indonesia pengurus daerah setempat, apabila di kabupaten belum ada asosiasi tersebut maka rekomendasi diterbitkan oleh Asosiasi Obat Hewan Pusat",,NULL,NULL,NULL
+"124","16","0","8","Tenaga dr Hewan/Apoteker yang bekerja tetap sebagai penanggungjawab teknis",,NULL,NULL,NULL
+"125","16","0","9","Sama dengan daftar toko obat",,NULL,NULL,NULL
+"126","16","0","10","Pas foto berwarna dengan baju berkerah (4 x 6 = 2 lembar)",,NULL,NULL,NULL
+"127","16","0","11","Surat pernyataan menyediakan tempat penyimpanan obat ",,NULL,NULL,NULL
+"128","16","0","12","Denah lokasi",,NULL,NULL,NULL
+"129","16","0","13","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"130","17","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"131","17","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"132","17","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"133","17","0","4","Rekomendasi Kepala Dinas Peternakan, Kelautan dan Perikanan Kab. Karangasem",,NULL,NULL,NULL
+"134","17","0","5","Fotocopy akta pendirian perusahaan dan pengesahannya (PT, CV, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"135","17","0","6","Bukti kepemilikan lahan/bukti pembayaran pajak tahun berjalan ",,NULL,NULL,NULL
+"136","17","0","7","Perjanjian/ikatan awal dengan pemilik lahan apabila lahan bukan milik pemohon",,NULL,NULL,NULL
+"137","17","0","8","Pas foto berwarna dengan baju berkerah (4 x 6 = 2 lembar)",,NULL,NULL,NULL
+"138","17","0","9","Denah lokasi",,NULL,NULL,NULL
+"139","17","0","10","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"140","18","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"141","18","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"142","18","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"143","18","0","4","Fotocopy izin-izin penunjang usaha",,NULL,NULL,NULL
+"144","18","0","5","Fotocopy akta pendirian perusahaan dan pengesahannya (PT, CV, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"145","18","0","6","Rekomendasi dari Kepala Dinas Kesehatan Kabupaten Karangasem",,NULL,NULL,NULL
+"146","18","0","7","Struktur organisasi pelayanan kesehatan yang teruraikan dalam pembagian tugas dan fungsi pelayanan daftar ketenagaan yang tersedia dan daftar tarif",,NULL,NULL,NULL
+"147","18","0","8","Surat pernyataan tidak keberatan dari atasan langsung bagi tenaga medis/paramedis yang bekerja sebagai Pegawai Negeri Sipil",,NULL,NULL,NULL
+"148","18","0","9","Fotocopy STR dan SIPA Apoteker penanggungjawab instansi farmasi",,NULL,NULL,NULL
+"149","18","0","10","Fotocopy SIP (Surat Izin Praktik) tenaga dokter dan dokter penanggung jawab",,NULL,NULL,NULL
+"150","18","0","11","Fotocopy SIKB ( Surat Izin Kerja Bidan) bagi tenaga paramedis Bidan",,NULL,NULL,NULL
+"151","18","0","12","Fotocopy STR dan SIKP (Surat Izin Kerja Perawat) bagi tenaga paramedis perawat",,NULL,NULL,NULL
+"152","18","0","13","Pas foto berwarna penanggungjawab dengan baju berkerah 4 x 6 (2 lembar)",,NULL,NULL,NULL
+"153","18","0","14","Semua persyaratan beserta blanko dilampirkan rangkap (2)",,NULL,NULL,NULL
+"154","18","0","15","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"155","19","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"156","19","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"157","19","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"158","19","0","4","Fotocopy STR dan SIPA Apoteker pengelola apotik",,NULL,NULL,NULL
+"159","19","0","5","Fotocopy STR dan SIPA Apoteker Pendamping (bila ada)",,NULL,NULL,NULL
+"160","19","0","6","Fotocopy akta perjanjian kerja sama antara pemilik sarana apotek dengan Apoteker Pengelola Apotek (apabila menggunakan sarana apotek milik pihak lain)",,NULL,NULL,NULL
+"161","19","0","7","Fotocopy akta pendirian perusahaan dan pengesahannya (CV, PT, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"162","19","0","8","Daftar terperinci alat perlengkapan apotek",,NULL,NULL,NULL
+"163","19","0","9","Surat pernyataan dari apoteker pengelola apotek bahwa tidak bekerja tetap pada perusahaan farmasi lain dan tidak menjadi apoteker pengelola apotek di apotek lain",,NULL,NULL,NULL
+"164","19","0","10","Surat pernyataan dari pemilik sarana tidak pernah terlibat pelanggaran peraturan perundang-undangan di bidang obat",,NULL,NULL,NULL
+"165","19","0","11","Denah lokasi",,NULL,NULL,NULL
+"166","19","0","12","Rekomendasi dari Kepala Dinas Kesehatan Kabupaten Karangasem",,NULL,NULL,NULL
+"167","19","0","13","Daftar asisten apoteker dengan mencantumkan nama, tanggal lulus, dan nomor surat izin kerja",,NULL,NULL,NULL
+"168","19","0","14","Semua persyaratan beserta blanko dilampirkan rangkap (2)",,NULL,NULL,NULL
+"169","19","0","15","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"170","20","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"171","20","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"172","20","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"173","20","0","4","Fotocopy izin penunjang usaha (SPPL)",,NULL,NULL,NULL
+"174","20","0","5","Fotocopy Sertifikat Produksi Pangan - Industri Rumah Tangga (SPP-IRT) dan fotocopy sertifikat laik sehat yang masih berlaku dan dari Dinas Kesehatan (diserahkan setelah team melaksanakan kunjungan lapangan)",,NULL,NULL,NULL
+"175","20","0","6","Bukti kepemilikan lahan/bukti pembayaran pajak tahun berjalan ",,NULL,NULL,NULL
+"176","20","0","7","Perjanjian/ikatan awal dengan pemilik lahan apabila lahan bukan milik pemohon",,NULL,NULL,NULL
+"177","20","0","8","Pas foto berwarna  dengan baju berkerah 4 x 6 (2 lembar)",,NULL,NULL,NULL
+"178","20","0","9","Denah lokasi",,NULL,NULL,NULL
+"179","20","0","10","Semua persyaratan beserta blanko dilampirkan rangkap (2)",,NULL,NULL,NULL
+"180","20","0","11","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"181","21","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"182","21","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"183","21","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"184","21","0","4","Fotocopy izin-izin penunjang usaha ",,NULL,NULL,NULL
+"185","21","0","5","Fotocopy akta pendirian perusahaan dan pengesahannya (CV, PT, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"186","21","0","6","Hasil analisa kondisi sosial ekonomi masyarakat yang telah mendapatkan rekomendasi dari Dinas Perindustrian dan Perdagangan",,NULL,NULL,NULL
+"187","21","0","7","Rencana kemitraan dengan UKM dan Koperasi",,NULL,NULL,NULL
+"188","21","0","8","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"189","22","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"190","22","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"191","22","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"192","22","0","4","Fotocopy izin-izin penunjang usaha ",,NULL,NULL,NULL
+"193","22","0","5","Fotocopy akta pendirian perusahaan dan pengesahannya (CV, PT, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"194","22","0","6","Analisa kondisi sosial ekonomi masyarakat yang telah mendapatkan rekomendasi dari Dinas Perindustrian dan Perdagangan",,NULL,NULL,NULL
+"195","22","0","7","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"196","23","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"197","23","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"198","23","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"199","23","0","4","Fotocopy izin-izin penunjang usaha ",,NULL,NULL,NULL
+"200","23","0","5","Fotocopy akta pendirian perusahaan dan pengesahannya (CV, PT, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"201","23","0","6","Analisa kondisi sosial ekonomi masyarakat yang telah mendapatkan rekomendasi dari Dinas Perindustrian dan Perdagangan",,NULL,NULL,NULL
+"202","23","0","7","Rencana kemitraan dengan UKM dan Koperasi",,NULL,NULL,NULL
+"203","23","0","8","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"204","24","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"205","24","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"206","24","0","3","Fotocopy izin penunjang usaha (IPR, IMB, izin lokasi untuk usaha yang menggunakan lahan dengan luas 1 hektar atau lebih / izin penetapan lokasi bagi bangunan milik pemerintah, izin lingkungan, rekomendasi pengelolaan lingkungan berupa SPPL UKL-UPL/Amdal, izin gangguan ) (Sebelum pemberlakuan Izin Pemanfaatan Ruang (IPR), dapat melampirkan Izin Prinsip/Rekomendasi Pemanfaatan Lapangan yang setara dengan IPR)",,NULL,NULL,NULL
+"207","24","0","4","Program Pelatihan Kerja berbasis kompetensi (kurikulum berbasis)",,NULL,NULL,NULL
+"208","24","0","5","Data inventaris sarana dan prasarana latihan",,NULL,NULL,NULL
+"209","24","0","6","Data tenaga instruktur ",,NULL,NULL,NULL
+"210","24","0","7","Struktur organisasi pengelolaan",,NULL,NULL,NULL
+"211","24","0","8","Fotocopy akta pendirian perusahaan dan pengesahannya (CV, PT, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"212","24","0","9","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"213","26","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"214","26","0","2","Fotocopy KTP penanggung jawab",,NULL,NULL,NULL
+"215","26","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"216","26","0","4","Fotocopy izin penunjang usaha (IPR, IMB, izin lokasi untuk usaha yang menggunakan lahan dengan luas 1 hektar atau lebih / izin penetapan lokasi bagi bangunan milik pemerintah, izin lingkungan, rekomendasi pengelolaan lingkungan berupa SPPL UKL-UPL/Amdal, izin gangguan ) (Sebelum pemberlakuan Izin Pemanfaatan Ruang (IPR), dapat melampirkan Izin Prinsip/Rekomendasi Pemanfaatan Lapangan yang setara dengan IPR)",,NULL,NULL,NULL
+"217","26","0","5","Fotocopy akta pendirian perusahaan dan pengesahannya (CV, PT, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"218","26","0","6","Surat pernyataan kesanggupan penanggung jawab, kesanggupan masing-masing tenaga teknis, kesediaan mengikuti program pemantapan mutu",,NULL,NULL,NULL
+"219","26","0","7","Data kelengkapan bangunan dan peralatan",,NULL,NULL,NULL
+"220","26","0","8","Rekomendasi dari Dinas Kesehatan",,NULL,NULL,NULL
+"221","26","0","9","Semua persyaratan beserta blanko dilampirkan rangkap (2)",,NULL,NULL,NULL
+"222","26","0","10","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"223","27","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"224","27","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"225","27","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"226","27","0","4","Fotocopy akta pendirian perusahaan dan pengesahannya (CV, PT, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"227","27","0","5","Fotocopy ijazah, STR, dan Surat Izin Kerja Asisten Apoteker",,NULL,NULL,NULL
+"228","27","0","6","Surat pernyataan kesediaan bekerja Asisten Apoteker sebagai penanggungjawab teknis ",,NULL,NULL,NULL
+"229","27","0","7","Denah lokasi tempat usaha",,NULL,NULL,NULL
+"230","27","0","8","Rekomendasi dari Dinas Kesehatan",,NULL,NULL,NULL
+"231","27","0","9","Semua persyaratan beserta blanko dilampirkan rangkap (2)",,NULL,NULL,NULL
+"232","27","0","10","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"233","28","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"234","28","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"235","28","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"236","28","0","4","Fotocopy izin-izin penunjang usaha ",,NULL,NULL,NULL
+"237","28","0","5","Fotocopy akta pendirian perusahaan dan pengesahannya (CV, PT, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"238","28","0","6","Surat pernyataan refraksionis optisien sebagai penanggungjawab optikal",,NULL,NULL,NULL
+"239","28","0","7","Surat keterangan sehat dari dokter kepada refraksionis",,NULL,NULL,NULL
+"240","28","0","8","Fotokopi ijazah refraksionis yang sudah dilegalisir",,NULL,NULL,NULL
+"241","28","0","9","Fotocopy KTP refraksionis optisien ",,NULL,NULL,NULL
+"242","28","0","10","Surat pernyataan kerjasama antara laboratorium optic tempat pemrosesan lensa pesanan (apabila optikal tidak memiliki laboratorium sendiri)",,NULL,NULL,NULL
+"243","28","0","11","Foto berwarna dengan baju berkerah (4 x 6 = 2 lembar)",,NULL,NULL,NULL
+"244","28","0","12","Daftar sarana dan peralatan",,NULL,NULL,NULL
+"245","28","0","13","Daftar pegawai serta tugas dan fungsinya",,NULL,NULL,NULL
+"246","28","0","14","Fotocopy SIK Refraksionis",,NULL,NULL,NULL
+"247","28","0","15","Rekomendasi dari Gapopin",,NULL,NULL,NULL
+"248","28","0","16","Rekomendasi dari Kepala Dinas Kesehatan ",,NULL,NULL,NULL
+"249","28","0","17","Semua persyaratan beserta blanko dilampirkan rangkap (2)",,NULL,NULL,NULL
+"250","28","0","18","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"251","29","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"252","29","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"253","29","0","3","Fotocopy izin-izin penunjang usaha (IPR, rekomendasi dokumen lingkungan berupa Amdal/UKL-UPL/SPPL, IMB, SITU dan/ atau izin gangguan)",,NULL,NULL,NULL
+"254","29","0","4","Fotocopy Izin usaha yang dimiliki",,NULL,NULL,NULL
+"255","29","0","5","Fotocopy akta pendirian perusahaan dan pengesahannya (CV, PT, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"256","29","0","6","Fotocopy hasil pengujian kwalitas air limbah",,NULL,NULL,NULL
+"257","29","0","7","Gambar alur air limbah dari proses produksi sampai titik pembuangan ke sumber air ",,NULL,NULL,NULL
+"258","29","0","8","Kajian teknis dampak pembuangan air limbah bagi usaha/kegiatan yang belum mencantumkannya dalam Dokumen Lingkungan Hidup (Amdal/UKL-UPL)",,NULL,NULL,NULL
+"259","29","0","9","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"260","30","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"261","30","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"262","30","0","3","Fotocopy izin-izin penunjang usaha (IPR, rekomendasi dokumen lingkungan berupa Amdal/UKL-UPL/SPPL, IMB, SITU dan/ atau izin gangguan)",,NULL,NULL,NULL
+"263","30","0","4","Fotocopy Izin usaha yang dimiliki",,NULL,NULL,NULL
+"264","30","0","5","Fotocopy akta pendirian perusahaan dan pengesahannya (CV, PT, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"265","30","0","6","Fotocopy hasil pengujian kwalitas air limbah",,NULL,NULL,NULL
+"266","30","0","7","Kajian teknis dampak pembuangan air limbah bagi usaha/kegiatan yang belum mencantumkannya dalam Dokumen Lingkungan Hidup (Amdal/UKL-UPL)",,NULL,NULL,NULL
+"267","30","0","8","Rekomendasi teknis dari Menteri untuk permohonan izin pemanfaatan air limbah ke tanah untuk aplikasi pada tanah yang spesifik",,NULL,NULL,NULL
+"268","30","0","9","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"269","31","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"270","31","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"271","31","0","3","Fotocopy izin-izin penunjang usaha (IPR, rekomendasi dokumen lingkungan berupa Amdal/UKL-UPL/SPPL, IMB, SITU dan/ atau izin gangguan)",,NULL,NULL,NULL
+"272","31","0","4","Fotocopy Izin usaha yang dimiliki",,NULL,NULL,NULL
+"273","31","0","5","Fotocopy akta pendirian perusahaan dan pengesahannya (CV, PT, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"274","31","0","6","Daftar jenis limbah, jumlah limbah (per jenis limbah ) dan karaktaristik jenis limbah B3 yang akan dikelola",,NULL,NULL,NULL
+"275","31","0","7","Desain konstruksi tempat pengumpulan / penyimpanan limbah B3",,NULL,NULL,NULL
+"276","31","0","8","Flowsheet lengkap proses pengelolaan limbah B3",,NULL,NULL,NULL
+"277","31","0","9","Uraian jenis dan spesifikasi teknik pengolahan dan peralatan yang digunakan",,NULL,NULL,NULL
+"278","31","0","10","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"279","32","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"280","32","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"281","32","0","3","Fotocopy izin-izin penunjang usaha (IPR, rekomendasi dokumen lingkungan berupa Amdal/UKL-UPL/SPPL, IMB, SITU dan/ atau izin gangguan)",,NULL,NULL,NULL
+"282","32","0","4","Fotocopy Izin usaha yang dimiliki",,NULL,NULL,NULL
+"283","32","0","5","Fotocopy akta pendirian perusahaan dan pengesahannya (CV, PT, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"284","32","0","6","Daftar jenis limbah, jumlah limbah (per jenis limbah ) dan karaktaristik jenis limbah B3 yang akan dikelola",,NULL,NULL,NULL
+"285","32","0","7","Desain konstruksi tempat pengumpulan / penyimpanan limbah B3",,NULL,NULL,NULL
+"286","32","0","8","Flowsheet lengkap proses pengelolaan limbah B3",,NULL,NULL,NULL
+"287","32","0","9","Uraian jenis dan spesifikasi teknik pengolahan dan peralatan yang digunakan",,NULL,NULL,NULL
+"288","32","0","10","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"289","33","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"290","33","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"291","33","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"292","33","0","4","Fotocopy izin-izin penunjang usaha (IPR, rekomendasi dokumen lingkungan berupa Amdal/UKL-UPL/SPPL, IMB, SITU dan/ atau izin gangguan)",,NULL,NULL,NULL
+"293","33","0","5","Fotocopy akta pendirian perusahaan dan pengesahannya (CV, PT, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"294","33","0","6","Berita acara pemeriksaan teknis kelayakan usaha dari Kepala Balai KSDA setempat ",,NULL,NULL,NULL
+"295","33","0","7","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"296","34","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"297","34","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"298","34","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"299","34","0","4","Fotocopy izin-izin penunjang usaha (IPR, rekomendasi dokumen lingkungan berupa Amdal/UKL-UPL/SPPL, IMB, SITU dan/ atau izin gangguan)",,NULL,NULL,NULL
+"300","34","0","5","Fotocopy akta pendirian perusahaan dan pengesahannya (CV, PT, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"301","34","0","6","Berita acara pemeriksaan teknis kelayakan usaha dari Kepala Balai KSDA setempat ",,NULL,NULL,NULL
+"302","34","0","7","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"303","35","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"304","35","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"305","35","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"306","35","0","4","Fotocopy izin-izin penunjang usaha (IPR, rekomendasi dokumen lingkungan berupa Amdal/UKL-UPL/SPPL, IMB, SITU dan/ atau izin gangguan)",,NULL,NULL,NULL
+"307","35","0","5","Fotocopy akta pendirian perusahaan dan pengesahannya (CV, PT, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"308","35","0","6","Rekomendasi kesesuaian dengan rencana makro pembangunan perkebunan provinsi dari Gubernur",,NULL,NULL,NULL
+"309","35","0","7","Peta lokasi skala 1 : 10000 atau 1 : 5000",,NULL,NULL,NULL
+"310","35","0","8","Pernyataan kesanggupan memiliki sarana prasarana dan sistem untuk melakukan pengendalian organis pengganggu tumbuhan (OPT)",,NULL,NULL,NULL
+"311","35","0","9","Pernyataan kesanggupan memiliki sarana prasarana dan sistem untuk melakukan pembakaran serta pengendalian kebakaran",,NULL,NULL,NULL
+"312","35","0","10","Pernyataan kesediaan membangun kebun untuk masyarakat yang dilengkapi dengan renca kerja",,NULL,NULL,NULL
+"313","35","0","11","Pernyataan kesediaan untuk melakukan kemitraan ",,NULL,NULL,NULL
+"314","35","0","12","Rencana kegiatan kerja",,NULL,NULL,NULL
+"315","35","0","13","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"316","36","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"317","36","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"318","36","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"319","36","0","4","Fotocopy izin-izin penunjang usaha (IPR, rekomendasi dokumen lingkungan berupa Amdal/UKL-UPL/SPPL, IMB, SITU dan/ atau izin gangguan)",,NULL,NULL,NULL
+"320","36","0","5","Fotocopy akta pendirian perusahaan dan pengesahannya (CV, PT, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"321","36","0","6","Rekomendasi kesesuaian dengan rencana makro pembangunan perkebunan provinsi dari Gubernur",,NULL,NULL,NULL
+"322","36","0","7","Peta lokasi skala 1 : 10000 atau 1 : 5000",,NULL,NULL,NULL
+"323","36","0","8","Jaminan pasokan bahan baku yang diketahui Bupati",,NULL,NULL,NULL
+"324","36","0","9","Pernyataan kesediaan untuk melakukan kemitraan ",,NULL,NULL,NULL
+"325","36","0","10","Rencana kerja pembangunan/perkebunan",,NULL,NULL,NULL
+"326","36","0","11","Rencana kerja pembangunan unit pengolahan hasil perkebunan",,NULL,NULL,NULL
+"327","36","0","12","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"328","37","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"329","37","0","2","Melampirkan IMTA yang akan diperpanjang",,NULL,NULL,NULL
+"330","37","0","3","Fotocopy SK RPTKA yang masih berlaku ",,NULL,NULL,NULL
+"331","37","0","4","Bukti pembayaran dana kompensasi penggunaan Tenaga Kerja Asing dari Bank yang ditunjuk",,NULL,NULL,NULL
+"332","37","0","5","Program pendidikan dan pelatihan TKI pendamping ",,NULL,NULL,NULL
+"333","37","0","6","Fotocopy polis asuransi",,NULL,NULL,NULL
+"334","37","0","7","Fotocopy identitas tenaga kerja asing",,NULL,NULL,NULL
+"335","37","0","8","Foto berwarna TKA dengan baju berkerah (4x6 = 2 lembar)",,NULL,NULL,NULL
+"336","37","0","9","Fotocopy akta pendirian perusahaan dan pengesahannya (CV, PT, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"337","37","0","10","Apabila izin asli hilang agar dilengkapi dengan Surat Keterangan Hilang dari Kepolisian",,NULL,NULL,NULL
+"338","37","0","11","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"339","38","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"340","38","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"341","38","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"342","38","0","4","Fotocopy akta pendirian perusahaan dan pengesahannya (CV, PT, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"343","38","0","5","Foto berwarna dengan baju berkerah (4 x 6 = 2 lembar)",,NULL,NULL,NULL
+"344","38","0","6","Surat penunjukan dari produsen atau IT-MB atau distributor atau sub-distributor atau kombinasi keempatnya sebagai penjual langsung menuman beralkohol, pengecer minuman beralkohol tempat lainnya, dan penjual langsung dan/ pengecer minuman beralkohol golongan B yang mengandung rempah-rempah, jamu dan sejenisnya ",,NULL,NULL,NULL
+"345","38","0","7","Fotocopy SITU Minuman  Beralkohol",,NULL,NULL,NULL
+"346","38","0","8","Fotocopy izin usaha sesuai dengan peraturan perundang-undangan yang berlaku ",,NULL,NULL,NULL
+"347","38","0","9","Rencana penjualan minuman beralkohol 1 (satu) tahun ke depan",,NULL,NULL,NULL
+"348","38","0","10","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"349","39","0","1","Fotocopy KTP pemohon",,NULL,NULL,NULL
+"350","39","0","2","Fotocopy NPWP",,NULL,NULL,NULL
+"351","39","0","3","Salinan akta pendirian perusahaan ",,NULL,NULL,NULL
+"352","39","0","4","Fotocopy izin mendirikan bangunan (IMB), izin lingkungan, IPR",,NULL,NULL,NULL
+"353","39","0","5","Fotocopy HO",,NULL,NULL,NULL
+"354","39","0","6","Fotocopy bukti kepemilikan tanah/surat perjanjian sewa menyewa/kontrak  (bagi pengusaha yang mengontrak untuk usaha tersebut)",,NULL,NULL,NULL
+"355","39","0","7","Denah peta lokasi",,NULL,NULL,NULL
+"356","39","0","8","Surat pernyataan kebenaran dokumen",,NULL,NULL,NULL
+"357","39","0","9","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"358","40","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"359","40","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"360","40","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"361","40","0","4","Fotocopy akta pendirian perusahaan dan pengesahannya (CV, PT, Koperasi) perorangan tidak perlu. Keterangan : 1) Hotel, Motel (berbadan hukum), 2) Bumi Perkemahan, Persinggahan Caravan, Villa (dapat merupakan usaha perorangan atau berbadan hukum), 3) Pondok Wisata (perorangan)",,NULL,NULL,NULL
+"362","40","0","5","Fotocopy izin-izin penunjang usaha (IPR, rekomendasi dokumen lingkungan berupa Amdal/UKL-UPL/SPPL, IMB, SITU dan/ atau izin gangguan)",,NULL,NULL,NULL
+"363","40","0","6","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"364","41","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"365","41","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"366","41","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"367","41","0","4","Fotocopy akta pendirian perusahaan dan pengesahannya (CV, PT, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"368","41","0","5","Fotocopy izin-izin penunjang usaha (IPR, rekomendasi dokumen lingkungan berupa Amdal/UKL-UPL/SPPL, IMB, SITU dan/ atau izin gangguan)",,NULL,NULL,NULL
+"369","41","0","6","Sertifikat Laik Higiene Sanitasi dari Dinas Kesehatan",,NULL,NULL,NULL
+"370","41","0","7","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"371","42","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"372","42","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"373","42","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"374","42","0","4","Fotocopy akta pendirian perusahaan dan pengesahannya (CV, PT, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"375","42","0","5","Fotocopy izin-izin penunjang usaha (IPR, rekomendasi dokumen lingkungan berupa Amdal/UKL-UPL/SPPL, IMB, SITU dan/ atau izin gangguan)",,NULL,NULL,NULL
+"376","42","0","6","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"377","43","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"378","43","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"379","43","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"380","43","0","4","Fotocopy akta pendirian perusahaan dan pengesahannya (CV, PT, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"381","43","0","5","Fotocopy izin-izin penunjang usaha (IPR, rekomendasi dokumen lingkungan berupa Amdal/UKL-UPL/SPPL, IMB, SITU dan/ atau izin gangguan)",,NULL,NULL,NULL
+"382","43","0","6","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"383","44","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"384","44","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"385","44","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"386","44","0","4","Fotocopy akta pendirian perusahaan dan pengesahannya (CV, PT, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"387","44","0","5","Fotocopy izin-izin penunjang usaha (IPR, rekomendasi dokumen lingkungan berupa Amdal/UKL-UPL/SPPL, IMB, SITU dan/ atau izin gangguan)",,NULL,NULL,NULL
+"388","44","0","6","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"389","45","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"390","45","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"391","45","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"392","45","0","4","Fotocopy akta pendirian perusahaan dan pengesahannya (CV, PT, Koperasi) perorangan tidak perlu. Keterangan : Lapangan Golf (berbadan hukum), Rumah bilyar, gelanggang renang, lapangan tenis, gelanggang bowling, gelanggang seni, arena permainan, panti pijat, taman rekreasi, karaoke, EO (dapat merupakan usaha perorangan atau berbadan hukum)",,NULL,NULL,NULL
+"393","45","0","5","Fotocopy izin-izin penunjang usaha (IPR, rekomendasi dokumen lingkungan berupa Amdal/UKL-UPL/SPPL, IMB, SITU dan/ atau izin gangguan)",,NULL,NULL,NULL
+"394","45","0","6","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"395","46","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"396","46","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"397","46","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"398","46","0","4","Fotocopy akta pendirian perusahaan dan pengesahannya (CV, PT, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"399","46","0","5","Fotocopy izin-izin penunjang usaha (IPR, rekomendasi dokumen lingkungan berupa Amdal/UKL-UPL/SPPL, IMB, SITU dan/ atau izin gangguan)",,NULL,NULL,NULL
+"400","46","0","6","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"401","47","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"402","47","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"403","47","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"404","47","0","4","Fotocopy akta pendirian perusahaan dan pengesahannya (CV, PT, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"405","47","0","5","Fotocopy izin-izin penunjang usaha (IPR, rekomendasi dokumen lingkungan berupa Amdal/UKL-UPL/SPPL, IMB, SITU dan/ atau izin gangguan)",,NULL,NULL,NULL
+"406","47","0","6","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"407","48","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"408","48","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"409","48","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"410","48","0","4","Fotocopy akta pendirian perusahaan dan pengesahannya (CV, PT, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"411","48","0","5","Fotocopy izin-izin penunjang usaha (IPR, rekomendasi dokumen lingkungan berupa Amdal/UKL-UPL/SPPL, IMB, SITU dan/ atau izin gangguan)",,NULL,NULL,NULL
+"412","48","0","6","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"413","49","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"414","49","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"415","49","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"416","49","0","4","Fotocopy akta pendirian perusahaan dan pengesahannya (CV, PT, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"417","49","0","5","Fotocopy izin-izin penunjang usaha (IPR, rekomendasi dokumen lingkungan berupa Amdal/UKL-UPL/SPPL, IMB, SITU dan/ atau izin gangguan)",,NULL,NULL,NULL
+"418","49","0","6","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"419","50","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"420","50","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"421","50","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"422","50","0","4","Fotocopy akta pendirian perusahaan dan pengesahannya (CV, PT, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"423","50","0","5","Fotocopy izin-izin penunjang usaha (IPR, rekomendasi dokumen lingkungan berupa Amdal/UKL-UPL/SPPL, IMB, SITU dan/ atau izin gangguan)",,NULL,NULL,NULL
+"424","50","0","6","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"425","51","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"426","51","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"427","51","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"428","51","0","4","Fotocopy akta pendirian perusahaan dan pengesahannya (CV, PT, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"429","51","0","5","Fotocopy izin-izin penunjang usaha (IPR, rekomendasi dokumen lingkungan berupa Amdal/UKL-UPL/SPPL, IMB, SITU dan/ atau izin gangguan)",,NULL,NULL,NULL
+"430","51","0","6","Foto copy sertifikat / kartu peserta BPJS (UU. No.24 Tahun 2011 tentang BPJS. PP No 86 Th 2013 tentang pengenaan sanksi administrasi)",,NULL,NULL,NULL
+"431","52","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"432","52","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"433","52","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"434","52","0","4","Fotocopy akta pendirian perusahaan dan pengesahannya (CV, PT, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"435","52","0","5","Fotocopy izin penunjang usaha (IPR, IMB, izin lokasi untuk usaha yang menggunakan lahan dengan luas 1 hektar atau lebih / izin penetapan lokasi bagi bangunan milik pemerintah, izin lingkungan, rekomendasi pengelolaan lingkungan berupa SPPL UKL-UPL/Amdal, izin gangguan ) (Sebelum pemberlakuan Izin Pemanfaatan Ruang (IPR), dapat melampirkan Izin Prinsip/Rekomendasi Pemanfaatan Lapangan yang setara dengan IPR)",,NULL,NULL,NULL
+"436","52","0","6","Pas foto berwarna dengan baju berkerah (4 x 6 = 2 lembar)",,NULL,NULL,NULL
+"437","53","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"438","53","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"439","53","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"440","53","0","4","Fotocopy akta pendirian perusahaan dan pengesahannya (CV, PT, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"441","53","0","5","Bukti kepemilikan lahan/bukti pembayaran pajak tahun berjalan ",,NULL,NULL,NULL
+"442","53","0","6","Perjanjian/ikatan awal dengan pemilik lahan apabila lahan bukan milik pemohon",,NULL,NULL,NULL
+"443","53","0","7","Denah lokasi kegiatan",,NULL,NULL,NULL
+"444","54","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"445","54","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"446","54","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"447","54","0","4","Fotocopy akta pendirian perusahaan dan pengesahannya (CV, PT, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"448","54","0","5","Pengantar dari UPT kecamatan setempat",,NULL,NULL,NULL
+"449","54","0","6","Rekomendasi dari Dinas Peternakan, Kelautan dan Perikanan Kab. Karangasem",,NULL,NULL,NULL
+"450","54","0","7","Pas foto berwarna dengan baju berkerah (4 x 6 = 2 lembar)",,NULL,NULL,NULL
+"451","54","0","8","Denah lokasi",,NULL,NULL,NULL
+"452","55","0","1","Fotocopy KTP ",,NULL,NULL,NULL
+"453","55","0","2","Fotocopy NPWP",,NULL,NULL,NULL
+"454","55","0","3","Fotocopy akta pendirian perusahaan dan pengesahannya (CV, PT, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"455","55","0","4","Fotocopy Izin Prinsip Penanaman Modal (untuk PMA) / Surat Keterangan yang dipersamakan dengan Izin Usaha /Izin Usaha yang dimiliki",,NULL,NULL,NULL
+"456","55","0","5","TDP CV yang asli dilampirkan (untuk revisi dan perpanjangan)",,NULL,NULL,NULL
+"457","56","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"458","56","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"459","56","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"460","56","0","4","Fotocopy akta pendirian perusahaan dan pengesahannya (CV, PT, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"461","56","0","5","Bukti kepemilikan lahan/bukti pembayaran pajak tahun berjalan ",,NULL,NULL,NULL
+"462","56","0","6","Perjanjian/ikatan awal dengan pemilik lahan apabila lahan bukan milik pemohon",,NULL,NULL,NULL
+"463","56","0","7","Jenis produk yang menjadi bahan baku ",,NULL,NULL,NULL
+"464","56","0","8","Rencana kegiatan berisi jenis tanaman, asa benih, tingkat produksi, lokasi kegiatan",,NULL,NULL,NULL
+"465","56","0","9","Denah lokasi",,NULL,NULL,NULL
+"466","57","0","1","Surat Pengantar Camat Setempat",,NULL,NULL,NULL
+"467","57","0","2","Fotocopy KTP ",,NULL,NULL,NULL
+"468","57","0","3","Fotocopy NPWP",,NULL,NULL,NULL
+"469","57","0","4","Fotocopy akta pendirian perusahaan dan pengesahannya (CV, PT, Koperasi) perorangan tidak perlu",,NULL,NULL,NULL
+"470","57","0","5","Bukti kepemilikan lahan/bukti pembayaran pajak tahun berjalan ",,NULL,NULL,NULL
+"471","57","0","6","Perjanjian/ikatan awal dengan pemilik lahan apabila lahan bukan milik pemohon",,NULL,NULL,NULL
+"472","57","0","7","Rencana kegiatan berisi jenis tanaman, asa benih, tingkat produksi, lokasi kegiatan",,NULL,NULL,NULL
+"473","57","0","8","Denah lokasi",,NULL,NULL,NULL
+"474","1","0","1","Surat Pengantar camat Setempat","Tower",NULL,NULL,NULL
+"475","1","0","2","Foto copy KTP (Kitas/Paspor untuk WNA)","Tower",NULL,NULL,NULL
+"476","1","0","3","Foto copy NPWP (untuk permohonan rumah tinggal tidak perlu)","Tower",NULL,NULL,NULL
+"477","1","0","4","Foto Copy Akta pendirian perusahaan dan pengesahannya (CV. PT, Koperasi, kecuali usaha perorangan)","Tower",NULL,NULL,NULL
+"478","1","0","5","Foto copy bukti kepemilikan lahan/ yang disamakan dan bukti pelunasanPBB tahun berjalan","Tower",NULL,NULL,NULL
+"479","1","0","6","Persetujuan sebelah menyebelah/penyanding","Tower",NULL,NULL,NULL
+"480","1","0","7","Persetujuan desa pakraman","Tower",NULL,NULL,NULL
+"481","1","0","8","melampirkan perjanjian ikatan awaldengan pemilik lahan atau sewa menyewa(untuk lahan yang bukan milik pemohon)","Tower",NULL,NULL,NULL
+"482","1","0","9","Denah lokasi beserta gambar site rencana awal","Tower",NULL,NULL,NULL
+"483","1","0","10","Surat pernyataankebenaran dokumen,tanah tidak dalam sengketa, management tidak dalam permasalahan","Tower",NULL,NULL,NULL
+"484","1","0","11","Proposal Rencana proyek(kecuali untuk permohonan IPR rumah tinggal)","Tower",NULL,NULL,NULL
+"485","1","0","12","Melampiri suratrekomendasi sesuai koordinat dari diskominfo (untuk tower telekomunikasi)","Tower",NULL,NULL,NULL
+"486","1","0","13","Surat kuasa pengurusan izin(bagi yang menggunakan kuasa)","Tower",NULL,NULL,NULL
+"487","1","0","1","Surat Pengantar camat Setempat","Rumah Tinggal",NULL,NULL,NULL
+"488","1","0","2","Foto copy KTP (Kitas/Paspor untuk WNA)","Rumah Tinggal",NULL,NULL,NULL
+"489","1","0","3","Foto copy bukti kepemilikan lahan/ yang disamakan dan bukti pelunasanPBB tahun berjalan","Rumah Tinggal",NULL,NULL,NULL
+"490","1","0","4","Persetujuan sebelah menyebelah/penyanding","Rumah Tinggal",NULL,NULL,NULL
+"491","1","0","5","Persetujuan desa pakraman","Rumah Tinggal",NULL,NULL,NULL
+"492","1","0","6","melampirkan perjanjian ikatan awaldengan pemilik lahan atau sewa menyewa(untuk lahan yang bukan milik pemohon)","Rumah Tinggal",NULL,NULL,NULL
+"493","1","0","7","Denah lokasi beserta gambar site rencana awal","Rumah Tinggal",NULL,NULL,NULL
+"494","1","0","8","Surat pernyataankebenaran dokumen,tanah tidak dalam sengketa, management tidak dalam permasalahan","Rumah Tinggal",NULL,NULL,NULL
+"495","1","0","9","Surat kuasa pengurusan izin(bagi yang menggunakan kuasa)","Rumah Tinggal",NULL,NULL,NULL
+"496","1","0","1","Surat Pengantar camat Setempat","Usaha",NULL,NULL,NULL
+"497","1","0","2","Foto copy KTP (Kitas/Paspor untuk WNA)","Usaha",NULL,NULL,NULL
+"498","1","0","3","Foto copy NPWP (untuk permohonan rumah tinggal tidak perlu)","Usaha",NULL,NULL,NULL
+"499","1","0","4","Foto Copy Akte pendirian perusahaan dan pengesahannya( CV. PT, Koperasi, kecuali usaha perorangan)","Usaha",NULL,NULL,NULL
+"500","1","0","5","Foto copy bukti kepemilikan lahan/ yang disamakan dan bukti pelunasanPBB tahun berjalan","Usaha",NULL,NULL,NULL
+"501","1","0","6","Persetujuan sebelah menyebelah/penyanding","Usaha",NULL,NULL,NULL
+"502","1","0","7","Persetujuan desa pakraman","Usaha",NULL,NULL,NULL
+"503","1","0","8","melampirkan perjanjian ikatan awaldengan pemilik lahan atau sewa menyewa(untuk lahan yang bukan milik pemohon)","Usaha",NULL,NULL,NULL
+"504","1","0","9","Denah lokasi beserta gambar site rencana awal","Usaha",NULL,NULL,NULL
+"505","1","0","10","Surat pernyataankebenaran dokumen,tanah tidak dalam sengketa, management tidak dalam permasalahan","Usaha",NULL,NULL,NULL
+"506","1","0","11","Proposal Rencana proyek(kecuali untuk permohonan IPR rumah tinggal)","Usaha",NULL,NULL,NULL
+"507","1","0","12","Surat kuasa pengurusan izin(bagi yang menggunakan kuasa)","Usaha",NULL,NULL,NULL
+"508","1","0","13","BPJS Kesehatan dan ketenagakerjaan","Usaha",NULL,NULL,NULL
+"509","1","0","1","Surat Pengantar camat Setempat","Wisata Tirta Diving",NULL,NULL,NULL
+"510","1","0","2","Foto copy KTP (Kitas/Paspor untuk WNA)","Wisata Tirta Diving",NULL,NULL,NULL
+"511","1","0","3","Foto copy NPWP (untuk permohonan rumah tinggal tidak perlu)","Wisata Tirta Diving",NULL,NULL,NULL
+"512","1","0","4","Foto Copy Akte pendirian perusahaan dan pengesahannya( CV. PT, Koperasi, kecuali usaha perorangan)","Wisata Tirta Diving",NULL,NULL,NULL
+"513","1","0","5","Foto copy bukti kepemilikan lahan/ yang disamakan dan bukti pelunasanPBB tahun berjalan","Wisata Tirta Diving",NULL,NULL,NULL
+"514","1","0","6","Persetujuan sebelah menyebelah/penyanding","Wisata Tirta Diving",NULL,NULL,NULL
+"515","1","0","7","Persetujuan desa pakraman","Wisata Tirta Diving",NULL,NULL,NULL
+"516","1","0","8","melampirkan perjanjian ikatan awaldengan pemilik lahan atau sewa menyewa(untuk lahan yang bukan milik pemohon)","Wisata Tirta Diving",NULL,NULL,NULL
+"517","1","0","9","Denah lokasi beserta gambar site rencana awal","Wisata Tirta Diving",NULL,NULL,NULL
+"518","1","0","10","Surat pernyataankebenaran dokumen,tanah tidak dalam sengketa, management tidak dalam permasalahan","Wisata Tirta Diving",NULL,NULL,NULL
+"519","1","0","11","Proposal Rencana proyek(kecuali untuk permohonan IPR rumah tinggal)","Wisata Tirta Diving",NULL,NULL,NULL
+"520","1","0","12","Untuk Penanaman modal asing melampirkan izin prinsip penanaman atau yang di persamakan dari BKMP","Wisata Tirta Diving",NULL,NULL,NULL
+"521","1","0","13","Surat kuasa pengurusan izin(bagi yang menggunakan kuasa)","Wisata Tirta Diving",NULL,NULL,NULL
+"522","60","1",NULL,"Surat Pengantar Camat setempat",NULL,NULL,NULL,NULL
+"523","60","1",NULL,"Foto copy KTP",NULL,NULL,NULL,NULL
+"524","60","1",NULL,"Foto copy NPWP",NULL,NULL,NULL,NULL
+"525","60","0",NULL,"Foto copy akte pendirian perusahaan dan pengesahannya (CV, PT, dan Koperasi). (Perorangan tidak perlu)",NULL,NULL,NULL,NULL
+"526","60","1",NULL,"Pengantar dari UPT Kecamatan setempat",NULL,NULL,NULL,NULL
+"527","60","1",NULL,"Rekomendasi dari Dinas Peternakan, Kelautan, dan Perikanan Kab. Karangasem",NULL,NULL,NULL,NULL
+"528","60","1",NULL,"Pas poto berwarna dengan baju berkerah (4 x 6  = 2 lembar)",NULL,NULL,NULL,NULL
+"529","60","0",NULL,"Denah Lokasi",NULL,NULL,NULL,NULL
+"530","61","1",NULL,"Foto copy KTP",NULL,"CV",NULL,NULL
+"531","61","1",NULL,"Foto copy NPWP",NULL,"CV",NULL,NULL
+"532","61","1",NULL,"Foto Copy Akte Pendirian Perusahaan (CV) dan pengesahannya",NULL,"CV",NULL,NULL
+"533","61","1",NULL,"Foto copy Izin Prinsip Penanaman Modal (untuk PMA) / Surat Keterangan yang dipersamakan dengan Izin Usaha / Izin Usaha yang telah dimiliki",NULL,"CV",NULL,NULL
+"534","61","1",NULL,"TDP CV yang asli dilampirkan (Untuk Revisi dan Perpanjangan)",NULL,"CV",NULL,NULL
+"535","61","1",NULL,"TDP CV yang asli dilampirkan (Untuk Revisi dan Perpanjangan)",NULL,"Perorangan",NULL,NULL
+"536","61","1",NULL,"Foto copy Izin Prinsip Penanaman Modal (untuk PMA) / Surat Keterangan yang dipersamakan dengan Izin Usaha / Izin Usaha yang telah dimiliki",NULL,"Perorangan",NULL,NULL
+"538","61","1",NULL,"Foto copy NPWP",NULL,"Perorangan",NULL,NULL
+"539","61","1",NULL,"Foto copy KTP",NULL,"Perorangan",NULL,NULL
+"540","61","1",NULL,"TDP CV yang asli dilampirkan (Untuk Revisi dan Perpanjangan)",NULL,"PT",NULL,NULL
+"541","61","1",NULL,"Foto copy Izin Prinsip Penanaman Modal (untuk PMA) / Surat Keterangan yang dipersamakan dengan Izin Usaha / Izin Usaha yang telah dimiliki",NULL,"PT",NULL,NULL
+"542","61","1",NULL,"Foto Copy Akte Pendirian Perusahaan (CV) dan pengesahannya",NULL,"PT",NULL,NULL
+"543","61","1",NULL,"Foto copy NPWP",NULL,"PT",NULL,NULL
+"544","61","1",NULL,"Foto copy KTP",NULL,"PT",NULL,NULL
+"545","64","1","1","MENGISI FORMULIR PERMOHONAN",,,"A",NULL
+"546","64","1","2","REKAMAN AKTA PENDIRIAN",,,"A",NULL
+"547","64","1","3","REKAMAN AKTA PERUBAHAN",,,"A",NULL
+"548","64","1","4","REKAMAN BUKTI PENDAFTARAN DI PENGADILAN NEGERI",,,"A",NULL
+"549","64","1","5","REKAMAN PENGESAHAN MENTERI HUKUM DAN HAM",,,"A",NULL
+"550","64","1","6","REKAMAN SURAT IJIN TEMPAT USAHA (SITU) SURAT KET. DOMISILI BADAN USAHA",,,"A",NULL
+"551","64","1","7","REKAMAN NPWP PERUSAHAAN",,,"A",NULL
+"552","64","1","8","REKAMAN SERTIFIKAT BADAN USAHA (SBU)",,,"A",NULL
+"553","64","1","9","REKAMAN KARTU TANDA ANGGOTA ASOSIASI (KTA)",,,"A",NULL
+"554","64","1","10","SURAT PERNYATAAN TIDAK PERNAH DI BLACK LIST MATERAI @ 6000",,,"A",NULL
+"555","64","1","11","SURAT KUASA (BAGI YANG MENGURUS PERMOHONAN IUJK  BUKAN DIREKTUR )",,,"A",NULL
+"556","64","1","12","DAFTAR PENGURUS",,,"B",NULL
+"557","64","1","13","REKAMAN IJAZAH TERAKHIR",,,"B",NULL
+"558","64","1","14","REKAMAN KTP",,,"B",NULL
+"559","64","1","15","PAS FOTO DIREKTUR 4X6 ( 2 LEMBAR )",,,"B",NULL
+"560","64","1","16","DAFTAR TENAGA TEKNIK TUGAS PENUH BADAN USAHA",,,"C",NULL
+"561","64","1","17","SURAT PERNYATAAN SEBAGAI TENAGA TEKNIK TUGAS PENUH MATERAI @ 6000",,,"C",NULL
+"562","64","1","18","REKAMAN SERTIFIKAT PENANGGUNG JAWAB TEKNIK BADAN USAHA (PJT-BU)",,,"C",NULL
+"563","64","1","19","REKAMAN IJAZAH TERAKHIR",,,"C",NULL
+"564","64","1","20","REKAMAN KTP",,,"C",NULL
+"565","64","1","21","REKAMAN TANDA BUKTI KOMPETENSI TENAGA KERJA KONSTRUKSI (SKA/SKT)",,,"C",NULL
+"566","64","1","22","DAFTAR PENGALAMAN KERJA",,,"C",NULL
+"567","64","1","23","DAFTAR TENAGA NON TEKNIK/TENAGA ADMINISTRASI BADAN USAHA",,,"D",NULL
+"568","64","1","24","REKAMAN IJAZAH TERAKHIR",,,"D",NULL
+"569","64","1","25","REKAMAN KTP",,,"D",NULL
+"570","64","1","26","DATA LUAS RUANGAN DAN IMB/ SURAT SEWA MENYEWA TEMPAT/GEDUNG",,,"E",NULL
+"571","64","1","27","PERLENGKAPAN KANTOR",,,"E",NULL
+"572","64","1","28","PERALATAN BADAN USAHA",,,"E",NULL
+"573","64","1","29","NERACA BADAN USAHA TAHUN TERAKHIR MATERAI @ 6000",,,"F",NULL
+"574","64","1","76","DATA PENGALAMAN KERJA PERUSAHAAN",NULL,NULL,"G",NULL
+"575","64","1","6","REKAMAN IUJK LAMA",NULL,NULL,"H",NULL
+"576","64","1","6","DOKUMEN INI LENGKAP DITERIMA TANGGAL",NULL,NULL,"I",NULL
+"577","59","1",NULL,"Surat Pengantar Camat Setempat",NULL,NULL,NULL,NULL
+"578","59","1",NULL,"Foto Copy KTP",NULL,NULL,NULL,NULL
+"579","59","1",NULL,"Foto Copy NPWP",NULL,NULL,NULL,NULL
+"580","59","1",NULL,"Izin Penunjang/SPPL",NULL,NULL,NULL,NULL
+"581","59","1",NULL,"Foto Copy Akte Pendirian Perusahaan dan Pengesahannya (CV, PT, dan Koperasi) (Usaha Perorangan tidak perlu)",NULL,NULL,NULL,NULL
+"582","59","1",NULL,"Bukti kepemilikan lahan/Bukti pembayaran pajak tahun berjalan",NULL,NULL,NULL,NULL
+"583","59","1",NULL,"Perjanjian/ikatan awal dengan pemilik lahan apabila lahan bukan milik pemohon",NULL,NULL,NULL,NULL
+"584","59","1",NULL,"Denah Lokasi Kegiatan",NULL,NULL,NULL,NULL
+"585","65","1",NULL,"Surat Pengantar dari Camat setempat",NULL,NULL,NULL,NULL
+"586","65","1",NULL,"Foto copy KTP",NULL,NULL,NULL,NULL
+"587","65","1",NULL,"Foto copy NPWP",NULL,NULL,NULL,NULL
+"588","65","1",NULL,"Foto copy akte pendirian dan pengesahannya (CV, PT, Koperasi), bagi yang berbadan hukum",NULL,NULL,NULL,NULL
+"589","65","1",NULL,"Foto copy status kepemilikan tanah/yang disamakan dan bukti pelunasan PBB tahun berjalan",NULL,NULL,NULL,NULL
+"590","65","1",NULL,"Surat pernyataan penyanding",NULL,NULL,NULL,NULL
+"591","65","1",NULL,"Rekomendasi / Surat Keterangan dari Desa Pekraman",NULL,NULL,NULL,NULL
+"592","65","1",NULL,"Melampirkan izin-izin penunjang usaha (IPR, Izin Lingkungan, dan izin Usaha/Izin Operasional bagi usaha yang telah melakukan kegiatan usaha komersial)",NULL,NULL,NULL,NULL
+"593","65","1",NULL,"Peta situasi lokasi petaan lahan dengan skala proporsional",NULL,NULL,NULL,NULL
+"594","65","1",NULL,"Peta Gambar rencana penataan lahan dengan skala proporsional",NULL,NULL,NULL,NULL
+"595","65","1",NULL,"Surat pernyataan kebenaran dokumen, tanah tidak dalam sengketa, management tidak dalam permasalahan",NULL,NULL,NULL,NULL
+"596","65","1",NULL,"Surat kuasa pengurusan izin (bagi yang menggunakan kuasa)",NULL,NULL,NULL,NULL
+"597","66","1",NULL,"Fotokopi kartu Tanda Penduduk (KTP)",NULL,NULL,NULL,NULL
+"598","66","1",NULL,"Fotokopi Akte Pendirian untuk Badan",NULL,NULL,NULL,NULL
+"599","66","1",NULL,"Surat Kuasa",NULL,NULL,NULL,NULL
+"600","66","1",NULL,"Surat Keterngan Persetujuan Pemanfaatan Tanah/ Bangunan/ Tempat",NULL,NULL,NULL,NULL
+"601","66","1",NULL,"Gambar Desain/ Konstruksi Reklame",NULL,NULL,NULL,NULL
+"602","66","1",NULL,"Sketsa dan Foto Rencana Lokasi Pemasangan Ukuran 4R",NULL,NULL,NULL,NULL
+"603","66","1",NULL,"Surat Pernyataan Kesanggupan menanggung kerugian",NULL,NULL,NULL,NULL
+"605","67","1","1","Rencana Usaha",NULL,NULL,NULL,"1.a"
+"606","67","1","2","Fc.KTP",NULL,NULL,NULL,"1.a"
+"607","67","1","3","Fc.NPWP",NULL,NULL,NULL,"1.a"
+"608","67","1","4","Surat Keterangan domisili usaha",NULL,NULL,NULL,"1.a"
+"609","67","1","5","Fc.Akte Pendirian Koperasi",NULL,NULL,NULL,"1.a"
+"610","67","1","6","Fc.Izin Lokasi",NULL,NULL,NULL,"1.a"
+"611","67","1","7","Fc.Izin Lingkungan",NULL,NULL,NULL,"1.a"
+"612","67","1","8","Pas photo ukuran 4x6 dan spesimen tanda tangan",NULL,NULL,NULL,"1.a"
+"613","67","1","9","Surat pernyataan bermeterai cukup dari pemilik atau penanggung jawab korporasi",NULL,NULL,NULL,"1.a"
+"614","67","1","1","Fc.Surat Izin  Usaha Pelayaran Angkutan Laut",NULL,NULL,NULL,"1.b"
+"615","67","1","2","Fc.grosse akte dan fc.buku kapal perikanan, fc.akte hipotik",NULL,NULL,NULL,"1.b"
+"616","67","1","3","Fc. Surat ukur internasional",NULL,NULL,NULL,"1.b"
+"617","67","1","4","Fc.surat tanda kebangsaan kapal",NULL,NULL,NULL,"1.b"
+"618","67","1","5","Fc.surat penunjukan keagenan",NULL,NULL,NULL,"1.b"
+"619","67","1","1","Surat permohonan rencana pembangunan menara pada longitude dan latitude ",NULL,NULL,NULL,"2.a"
+"620","67","1","2","KTP pemohon",NULL,NULL,NULL,"2.a"
+"621","67","1","3","Pas photo ukuran 3x4 cm sebanyak 2 lembar",NULL,NULL,NULL,"2.a"
+"622","67","1","4","Surat keterangan rencana ketinggian menara",NULL,NULL,NULL,"2.a"
+"623","67","1","5","Surat pernyataan pembangunan menara bersama paling sedikit dengan 3 penyelenggara telekomunikasi",NULL,NULL,NULL,"2.a"
+"624","67","1","6","Surat keterangan kesanggupan membayar retribusi",NULL,NULL,NULL,"2.a"
+"625","67","1","1","Pemohon dan KTP Pemohon (KITAS/Passport)",NULL,NULL,NULL,"3.a"
+"626","67","1","2","Permohonan",NULL,NULL,NULL,"3.a"
+"627","67","1","3","Alamat yang dimohonkan IMB",NULL,NULL,NULL,"3.a"
+"628","67","1","4","Surat Pengantar Camat setempat",NULL,NULL,NULL,"3.a"
+"629","67","1","5","Sertifikat/sewa",NULL,NULL,NULL,"3.a"
+"630","67","1","6","IPR",NULL,NULL,NULL,"3.a"
+"631","67","1","7","SPPL/UKL-UPL",NULL,NULL,NULL,"3.a"
+"632","67","1","1","Mengisi formulir permohonan",NULL,NULL,NULL,"3.b"
+"633","67","1","2","Rekaman Akta Pendirian",NULL,NULL,NULL,"3.b"
+"634","67","1","3","Rekaman Akta Perubahan",NULL,NULL,NULL,"3.b"
+"635","67","1","4","Rekaman Bukti Pendaftaran di Pengadilan Negeri",NULL,NULL,NULL,"3.b"
+"636","67","1","5","Rekaman Pengesahan Menteri Hukum dan HAM",NULL,NULL,NULL,"3.b"
+"637","67","1","6","Rekaman Surat Izin Tempat Usaha (SITU) Surat Keterangan Domisili Badan Usaha",NULL,NULL,NULL,"3.b"
+"638","67","1","7","Rekaman NPWP Perusahan",NULL,NULL,NULL,"3.b"
+"639","67","1","8","Rekaman Sertifikat Badan Usaha (SBU)",NULL,NULL,NULL,"3.b"
+"640","67","1","9","Rekaman Kartu Tanda Anggota Asosiasi (KTA)",NULL,NULL,NULL,"3.b"
+"641","67","1","10","Surat Pernyataan Tidak Pernah d Black List Materai 6.000",NULL,NULL,NULL,"3.b"
+"642","67","1","11","Surat Kuasa (bag yang mengurus permohonan IUJK bukan Direktur)",NULL,NULL,NULL,"3.b"
+"643","67","1","1","Fc.KTP pemohon",NULL,NULL,NULL,"4.a"
+"644","67","1","2","Fc.NPWP",NULL,NULL,NULL,"4.a"
+"645","67","1","3","Surat Izin Gangguan (SIG)",NULL,NULL,NULL,"4.a"
+"646","67","1","4","Fc.Akta Pendirian Perusahaan bagi PT,CV, dan Koperasi",NULL,NULL,NULL,"4.a"
+"647","67","1","5","Status tempat/surat kontrak tempat usaha",NULL,NULL,NULL,"4.a"
+"648","67","1","6","Pelunasan PBB terakhir bagi pemilik tempat usaha sendiri",NULL,NULL,NULL,"4.a"
+"649","67","1","7","Surat Pernyataan Pengelolaan Lingkungan (SPPL)",NULL,NULL,NULL,"4.a"
+"650","67","1","1","Mengisi formulir permohonan",NULL,NULL,NULL,"4.b"
+"651","67","1","2","Fc.KTP",NULL,NULL,NULL,"4.b"
+"652","67","1","3","Fc.NPWP",NULL,NULL,NULL,"4.b"
+"653","67","1","4","Fc.Akta Pendirian  Perusahaan dan Perubahannya ",NULL,NULL,NULL,"4.b"
+"654","67","1","5","Fc.IMB",NULL,NULL,NULL,"4.b"
+"655","67","1","6","Surat Keterangan Domisili Perusahaan",NULL,NULL,NULL,"4.b"
+"656","67","1","7","Surat Rekomendasi dari Lurah dan Camat setempat",NULL,NULL,NULL,"4.b"
+"657","67","1","8","Fc.UKL/UPL  serta AMDAL bagi perusahaan industri yang mengandung dampak pencemaran",NULL,NULL,NULL,"4.b"
+"658","67","1","9","Fc.Surat Izin Gangguan (HO)",NULL,NULL,NULL,"4.b"
+"659","67","1","10","Fc.SIUP dan TDP",NULL,NULL,NULL,"4.b"
+"660","67","1","1","Fc.SIUP",NULL,NULL,NULL,"4.c"
+"661","67","1","2","Fc.TDP",NULL,NULL,NULL,"4.c"
+"662","67","1","3","Fc.Pemilik Usaha",NULL,NULL,NULL,"4.c"
+"663","67","1","4","Fc.NPWP",NULL,NULL,NULL,"4.c"
+"664","67","1","5","Fc.Perjanjian Pemakaian gudang dengan pemilik",NULL,NULL,NULL,"4.c"
+"665","67","1","1","Fc.KTP Pemilik",NULL,NULL,NULL,"4.d"
+"666","67","1","2","Fc.NPWP Perusahaan ",NULL,NULL,NULL,"4.d"
+"667","67","1","3","Fc.SITU",NULL,NULL,NULL,"4.d"
+"668","67","1","4","Neraca Perusahaan",NULL,NULL,NULL,"4.d"
+"669","67","1","1","Mengisi Form Model IA",NULL,NULL,NULL,"4.e"
+"670","67","1","2","Fc.Surat Izin Perdagangan",NULL,NULL,NULL,"4.e"
+"671","67","1","3","Rekomendasi Kepala Daerah setempat",NULL,NULL,NULL,"4.e"
+"672","67","1","4","Rekomendasi dari Kepala Daerah setempat",NULL,NULL,NULL,"4.e"
+"673","67","1","5","Fc.NPWP",NULL,NULL,NULL,"4.e"
+"674","67","1","1","Fc.NPWP",NULL,NULL,NULL,"4.f"
+"675","67","1","2","Mengisi Formulir Isian",NULL,NULL,NULL,"4.f"
+"676","67","1","3","Fc.Surat Keterangan Domisili Perusahaan",NULL,NULL,NULL,"4.f"
+"677","67","1","4","Fc.KTP Penanggung Jawab",NULL,NULL,NULL,"4.f"
+"678","67","1","5","Fc.SIUP",NULL,NULL,NULL,"4.f"
+"679","67","1","1","Fc.identitas diri",NULL,NULL,NULL,"5.a"
+"680","67","1","2","Surat Keterangan Domisili dari Kepala Desa/Lurah",NULL,NULL,NULL,"5.a"
+"681","67","1","3","Susunan Pengurus dan Rincian Tugas",NULL,NULL,NULL,"5.a"
+"682","67","1","4","Hasil Study Kelayakan",NULL,NULL,NULL,"5.a"
+"683","67","1","5","Isi Pendidikan",NULL,NULL,NULL,"5.a"
+"684","67","1","6","Jumlah dan Kualifikasi Pendidik dan Tenaga Kependidikan",NULL,NULL,NULL,"5.a"
+"685","67","1","7","Pembiayaan Pendidikan",NULL,NULL,NULL,"5.a"
+"686","67","1","8","Sistem Evaluasi dan Serttifikasi",NULL,NULL,NULL,"5.a"
+"687","67","1","9","Manajemen dan Proses Pendidikan",NULL,NULL,NULL,"5.a"
+"688","67","1","10","Hasil Study Kelayakan tentang prospek pendirian satuan pendidikan formal dari segi tata ruang, geografis, dan ekologi",NULL,NULL,NULL,"5.a"
+"689","67","1","11","Hasil study kelayakan tentang prospek pendirian satuan pendidikan formal dari segi prospek pendafataran, keuangan, sosial, dan kebudayaan",NULL,NULL,NULL,"5.a"
+"690","67","1","12","Data mengenai perimbangan antara jumlah satuan pendidikan formal dengan penduduk usia sekolah di wilayah tersebut",NULL,NULL,NULL,"5.a"
+"691","67","1","13","Data mengenai perkiraan jarak satuan pendidilkan yang diusulkan diantara gugus satuan pendidikan formal sejenis",NULL,NULL,NULL,"5.a"
+"692","67","1","14","Data mengenai kapasitas daya tampung dan lingkup jangkauan satuan pendidikan formal sejenis yang ada",NULL,NULL,NULL,"5.a"
+"693","67","1","15","Data mengenai perkiraan pembiayaan untuk kelangsungan pendidikan paling sedikit untuk 1 tahun akademik berikutnya",NULL,NULL,NULL,"5.a"
+"694","67","1","16","Data mengenai status kepemilikan tanah dan/atau bangunan satuan pendidikan yang harus dibuktikan dengan dokumen kependidikan yang sah sesuai dengan ketentuan peraturan perundang-undangan atas nama pemerintah,pemerintah daerah/badan penyelenggara",NULL,NULL,NULL,"5.a"
+"695","67","1","1","Identitas Pemilik",NULL,NULL,NULL,"6.a"
+"696","67","1","2","Fc.STNK",NULL,NULL,NULL,"6.a"
+"697","67","1","3","Fc.Izin Usaha Kendaraan Bermotor",NULL,NULL,NULL,"6.a"
+"698","67","1","4","Memiliki Nomor Pokok Wajib Pajak (NPWP)",NULL,NULL,NULL,"6.a"
+"699","67","1","5","Memiliki Akte Pendirian Perusahaan bagi pemohon yang berbentuk badan usaha, akte pendirian koperasi bagi pemohon yang berbentuk koperasi, tanda jati diri bagi pemohon perorangan",NULL,NULL,NULL,"6.a"
+"700","67","1","6","Memiliki Surat Keterangan Domisili Perusahaan",NULL,NULL,NULL,"6.a"
+"701","67","1","1","Memiliki Surat Izin Tempat Usaha (SITU)",NULL,NULL,NULL,"7.a"
+"702","67","1","2","Kesanggupan untuk menyediakan fasilitas penyimpanan kendaraan",NULL,NULL,NULL,"7.a"
+"703","67","1","1","IPR",NULL,NULL,NULL,"8.a"
+"704","67","1","2","Surat Persetujuan Penyanding Sebelah Menyebelah",NULL,NULL,NULL,"8.a"
+"705","67","1","3","Surat Persetujuan Desa Pakraman",NULL,NULL,NULL,"8.a"
+"706","67","1","4","Fc.Sertifikat Tanah",NULL,NULL,NULL,"8.a"
+"707","67","1","5","Fc.KTP",NULL,NULL,NULL,"8.a"
+"708","67","1","6","Fc.NPWP",NULL,NULL,NULL,"8.a"
+"709","67","1","7","SPPT",NULL,NULL,NULL,"8.a"
+"710","67","1","8","Akte Perusahaan",NULL,NULL,NULL,"8.a"
+"711","67","1","9","Perjanjian Sewa Menyewa (bila lahan sewa)",NULL,NULL,NULL,"8.a"
+"712","67","1","10","Denah lokas i (set plant)",NULL,NULL,NULL,"8.a"
+"713","67","1","11","Dokumen Lingkungan sebelumnya",NULL,NULL,NULL,"8.a"
+"714","67","1","12","Rekomendasi UKL-UPL sebelumnya",NULL,NULL,NULL,"8.a"
+"715","67","1","13","Izin Lingkungan sebelumnya",NULL,NULL,NULL,"8.a"
+"716","67","1","14","Draft Dokumen Lingkungan yang telah direvisi",NULL,NULL,NULL,"8.a"
+"717","67","1","1","Persyaratan administrasi yang memuat data : akta pendirian perusahaan, nama penanggung jawab kegiatan, nama perusahaan, alamat perusahaan, bidang usaha, dan/atau kegiatan, nomor telepon perusahaan  wakil perusahaan yang dapat dihubungi  dan sertifikat kompetensi dan/atau sertifikat pelatihan",NULL,NULL,NULL,"8.b"
+"718","67","1","1","Persyaratan administrasi yang memuat data akta pendirian perusahaan, nama penanggung jawab kegiatan, nama perusahaan, alamat perusahaan, bidang usaha dan/atau kegiatan, nomor telepon perusahaan, wakil perusahaan yang dapat dihubungi, dan sertifikat kompetensi dan/atau sertifikat pelatihan.",NULL,NULL,NULL,"8.c"
+"719","67","1","1","Surat permohonan pengajuan izin usaha simpan pinjam",NULL,NULL,NULL,"9.a"
+"720","67","1","2","Fc.pengesahan akta pendirian/perubahan Anggaran dasar (PAD) Koperasi beserta surat keputusannnya (SK)",NULL,NULL,NULL,"9.a"
+"721","67","1","3","Fc.surat bukti setor modal dalam bentuk deposito/tabungan di bank pemerintah atas nama koperasi dan atau salah satu Pengurus",NULL,NULL,NULL,"9.a"
+"722","67","1","4","Daftar riwayat hidup pengurus dan pengawas serta foto copy KTP pengurus dan pengawas yang masih berlaku",NULL,NULL,NULL,"9.a"
+"723","67","1","5","Fc.nomor rekening atas nama koperasi dan atau salah satu pengurus",NULL,NULL,NULL,"9.a"
+"724","67","1","6","Rencana kerja selama 2 (dua) tahun",NULL,NULL,NULL,"9.a"
+"725","67","1","7","Alamat kantor cabang dan kantor cabang pembantu yang akan dibuka",NULL,NULL,NULL,"9.a"
+"726","67","1","8","Fc.anggaran dasar dan anggaran rumah tangga",NULL,NULL,NULL,"9.a"
+"727","67","1","9","Modal kerja untuk kantor cabang dan kantor cabang pembantu",NULL,NULL,NULL,"9.a"
+"728","67","1","10","Fc.hasil penilaian kesehatan dengan predikat kesehatan sekurang-kurangnya cukup sehat",NULL,NULL,NULL,"9.a"
+"729","67","1","11","Daftar sarana kerja beserta kondisi fisiknya",NULL,NULL,NULL,"9.a"
+"730","67","1","12","Neraca dan perhitungan hasil usaha koperasi yang bersangkutan dalam 1 (satu) tahun terakhir",NULL,NULL,NULL,"9.a"
+"731","67","1","13","Rencana kerja kantor cabang dan kantor cabang pembantu paling sedikit setahun",NULL,NULL,NULL,"9.a"
+"732","67","1","14","Daftar nama dan riwayat hidup calon pimpinan dan daftar nama calon karyawan kantor cabang dan kantor cabang pembantu",NULL,NULL,NULL,"9.a"
+"733","67","1","1","Fc. KTP untuk orang pribadi",NULL,NULL,NULL,"10.a"
+"734","67","1","2","Fc. Akte Pendirian untuk Badan",NULL,NULL,NULL,"10.a"
+"735","67","1","3","Surat kuasa bermaterai cukup dari pemohon apabila pengajuan dikuasakan kepada orang lain",NULL,NULL,NULL,"10.a"
+"736","67","1","4","Keterangan persetujuan terkait pemanfaatan tanah/bangunan/tempat untuk penyelenggaraan reklame yang ditandatangani pemilik/pengelola tanah/bangunan/tempat tersebut",NULL,NULL,NULL,"10.a"
+"737","67","1","5","Gambar rencana desain/konstruksi reklame disertai rincian anggaran biaya ( RAB ) pembuatan reklame dan biaya pemasangan reklame",NULL,NULL,NULL,"10.a"
+"738","67","1","6","Sketsa dan foto terbaru rencana lokasi pemasangan ukuran 4R",NULL,NULL,NULL,"10.a"
+"739","67","1","7","Surat pernyataan kesanggupan menanggung segala kerugian yang timbul sebagai akibat penyelenggaraan reklame",NULL,NULL,NULL,"10.a"
