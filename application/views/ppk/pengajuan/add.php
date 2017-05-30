@@ -270,7 +270,24 @@ Mohon ditindaklanjuti
     
     $('.select2').select2();
     $(":file").filestyle();
-    // $(".filerInput-*").filer();
+
+    $(".filestyle").change(function () {
+        var fileExtensionData = $(this).data('ext');
+        var self = $(this);
+
+        var fileExtension = fileExtensionData.split(',');
+
+        if ($.inArray($(this).val().split('.').pop().toLowerCase(), fileExtension) == -1) {
+           
+           alert("Format yang di support adalah : "+fileExtension.join(', '));
+           
+           self.val("");
+           return false;
+        }
+
+   });
+
+
     // 
     var submitPengajuan = false;
     $('#form-pengajuan').on("submit", function(e){
