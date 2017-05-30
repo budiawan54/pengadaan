@@ -52,6 +52,10 @@ Mohon ditindaklanjuti
 	        confBootBox('Apakah anda yakin akan mengirim ke Kabag Pengadaan dan Pelayanan?', function(resul){
 	            if (resul == true){
 	                submitPengajuan = true;
+	                var dialog = bootbox.dialog({
+	                    message: '<p class="text-center">Sedang mengirim data...</p>',
+	                    closeButton: false
+	                });
 	                $('#form-dek').trigger('submit');
 	            }
 	        });

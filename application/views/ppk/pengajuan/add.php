@@ -64,8 +64,10 @@
                                 <div class="col-md-6">
                                     <div class="input-group">
                                         <span class="input-group-addon">Rp.</span>
-                                        <input type="number" name="Pagu_Anggaran" class="form-control input-normal rupiahInput" required="">
+                                        <input type="number" name="Pagu_Anggaran" class="form-control input-normal " id="paguInput" required="">
                                     </div>
+
+                                    <div class="help-block" id="paguOutput"></div>
                                 </div>
                             </div>
 
@@ -74,8 +76,10 @@
                                 <div class="col-md-6">
                                     <div class="input-group">
                                         <span class="input-group-addon">Rp.</span>
-                                        <input type="number" name="HPS" class="form-control input-normal rupiahInput" required="">
+                                        <input id="hpsInput" type="number" name="HPS" class="form-control input-normal" required="">
                                     </div>
+                                    <div class="help-block" id="hpsOutput"></div>
+
                                 </div>
                             </div>
 
@@ -219,6 +223,30 @@ Mohon ditindaklanjuti
 <script type="text/javascript" src="<?php echo base_url('/resources/plugins/bootstrap-filestyle-1.2.1/src/bootstrap-filestyle.min.js') ?>"></script>
 
 <script type="text/javascript">
+    function format1(n, currency) {
+        n = parseFloat(n);
+        return currency + " " + n.toFixed(2).replace(/./g, function(c, i, a) {
+            return i > 0 && c !== "." && (a.length - i) % 3 === 0 ? "," + c : c;
+        });
+    }
+
+    $('#paguInput').on("keyup", function(){
+        var valueA = $(this).val();
+        if (valueA != ""){
+            var valueB = format1(valueA, 'Rp');
+            $('#paguOutput').html(valueB);
+        }
+    })
+
+    $('#hpsInput').on("keyup", function(){
+        var valueA = $(this).val();
+        if (valueA != ""){
+            var valueB = format1(valueA, 'Rp');
+            $('#hpsOutput').html(valueB);
+        }
+    })
+
+
     function confBootBox(pesan, callback2){
         bootbox.confirm({
             message: pesan,
@@ -250,10 +278,17 @@ Mohon ditindaklanjuti
             e.preventDefault();
             confBootBox('Apakah anda yakin akan mengajukan pengadaan ini?', function(resul){
                 if (resul == true){
+                    
                     submitPengajuan = true;
+
                     $('#btn_submit_pengajuan').button("loading");
-                    $('#alet_loading').slideDown();
                     $('input').attr("readonly", true);
+
+                    var dialog = bootbox.dialog({
+                        message: '<p class="text-center">Sedang mengirim data...</p>',
+                        closeButton: false
+                    });
+                    
                     $('#form-pengajuan').trigger('submit');
                 }
             });

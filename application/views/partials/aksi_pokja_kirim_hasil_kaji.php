@@ -226,7 +226,10 @@ Mohon ditindaklanjuti
 
 		confBootBox('Apakah anda yakin akan melakukan aksi ini?', function(resul){
 			if (resul){
-				alert("fuck");
+				var dialog = bootbox.dialog({
+				    message: '<p class="text-center">Sedang mengirim data...</p>',
+				    closeButton: false
+				});
 				$('#form-pokja-kaji').trigger('submit');
 			}
 		});
@@ -238,6 +241,10 @@ Mohon ditindaklanjuti
 	        e.preventDefault();
 	        confBootBox('Apakah anda yakin untuk menyimpan catatan ini?', function(resul){
 	            if (resul == true){
+	            	var dialog = bootbox.dialog({
+	            	    message: '<p class="text-center">Sedang mengirim data...</p>',
+	            	    closeButton: false
+	            	});
 	                submitCatatanPokjaKetua = true;
 	                $('#form-catatan-pokja').trigger('submit');
 	            }
@@ -249,6 +256,10 @@ Mohon ditindaklanjuti
 	function submitFormLelang(){
 		confBootBox('Apakah anda yakin akan melakukan aksi ini?', function(resul){
 			if (resul == true){
+				var dialog = bootbox.dialog({
+				    message: '<p class="text-center">Sedang mengirim data...</p>',
+				    closeButton: false
+				});
 				$('#form-pokja-lelang').trigger('submit');
 			}
 		});

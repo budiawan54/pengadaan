@@ -39,6 +39,11 @@
 		confBootBox('Apakah anda yakin akan melakukan aksi ini?', function(resul){
 
 			if (resul == true){
+				var dialog = bootbox.dialog({
+				    message: '<p class="text-center">Sedang mengirim data...</p>',
+				    closeButton: false
+				});
+				
 				$('#form-kabag-trc').trigger('submit');
 			}
 		});

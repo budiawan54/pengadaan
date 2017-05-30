@@ -176,7 +176,6 @@ class Pengajuan extends CI_Controller {
 		$ar['Slug_Posisi'] = 'monev';
 		$pesan = 'Hasil lelang berhasil dikirim ke Kasubag Monev';
 		
-		
 
 		$this->_uploadHasilLelang($ar_catatan['Id_Pengajuan_Pengadaan']);
 
@@ -185,7 +184,14 @@ class Pengajuan extends CI_Controller {
 		$arr['Nilai_Penawaran_Hasil'] = $this->input->post('Nilai_Penawaran_Hasil');
 		$arr['NPWP'] = $this->input->post('NPWP');
 		$arr['Metode_Pemilihan_Penyedia'] = $this->input->post('Metode_Pemilihan_Penyedia');
-		$arr['Lelang_Ulang'] = $this->input->post('Lelang_Ulang');
+
+		if ($this->input->post('Lelang_Ulang') == 'on'){
+			$arr['Lelang_Ulang'] = 1;
+		}
+		else{
+			$arr['Lelang_Ulang'] = 0;
+		}
+		
 		$arr['Lelang_Ulang_Ke'] = $this->input->post('Lelang_Ulang_Ke');
 
 		$arr['Id_Pengajuan_Pengadaan'] = $ar_catatan['Id_Pengajuan_Pengadaan'];

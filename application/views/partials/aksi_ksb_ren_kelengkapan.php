@@ -87,6 +87,10 @@ Mohon ditindaklanjuti
 		if (progress == 'tolak_ksb_ren'){
 			confBootBox('Apakah anda yakin akan menolak permohonan pengajuan ini?', function(resul){
 				if (resul == true){
+					var dialog = bootbox.dialog({
+					    message: '<p class="text-center">Sedang mengirim data...</p>',
+					    closeButton: false
+					});
 					$('#form-dek').trigger('submit');
 				}
 			});
