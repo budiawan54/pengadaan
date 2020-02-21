@@ -1,12 +1,21 @@
 <link rel="stylesheet" type="text/css" href="<?php echo base_url('resources/plugins/editable/bootstrap3-editable/css/bootstrap-editable.css') ?>">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url('resources/css/chat.css') ?>">
+
+
+<?php
+    if ($pengajuan['Progress'] == 'pengkajian'){
+        $this->load->view('komponen/chat');
+    }
+?>
+
 
 <?php
     $progress_pengajuan = $pengajuan['Progress'];
     $slug_posisi = $pengajuan['Slug_Posisi'];
     if (
-            ($slug_posisi == 'fo' && $userLogin['Slug_Jabatan'] == 'fo' && $progress_pengajuan == 'fo') 
+            ($slug_posisi == 'fo' && $userLogin['Slug_Jabatan'] == 'fo' && $progress_pengajuan == 'fo')
             ||
-            ($slug_posisi == 'ksb_ren' && $userLogin['Slug_Jabatan'] == 'ksb_ren' && $progress_pengajuan == 'terima_fo') 
+            ($slug_posisi == 'ksb_ren' && $userLogin['Slug_Jabatan'] == 'ksb_ren' && $progress_pengajuan == 'terima_fo')
         ){
         $isiCatatanKelengkapan = true;
 
@@ -17,7 +26,6 @@
             echo '<form action="'.base_url('ksb_ren/pengajuan/cek_kelengkapan') .'" method="POST" id="form-dek" enctype="multipart/form-data">';
         }
 
-        
     }
     else{
         $isiCatatanKelengkapan = false;
@@ -25,6 +33,7 @@
 
     // form catatan untuk anggota_pokja
     if ($slug_posisi == 'pokja' && $userLogin['Slug_Jabatan'] == 'anggota_pokja' && $pengajuan['Progress'] == 'setuju_seleksi'){
+
         echo '<form action="'.base_url('anggota_pokja/pengajuan/isi_catatan') .'" method="POST" id="form-anggota-pokja" enctype="multipart/form-data">';
     }
 
@@ -55,12 +64,12 @@
 
 <div class="row">
     <div class="col-lg-8">
-    
+
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h3 class="panel-title">Data Umum Pengajuan</h3>
                             <div class="panel-toolbar text-right">
-                
+
                 <?php
                     if ($slug_posisi == 'ppk'){
                         if ($progress_pengajuan == 'draft'
@@ -69,7 +78,7 @@
                             || $progress_pengajuan == 'pengkajian'){
 
                 ?>
-                
+
                                 <a href="<?php echo base_url('ppk/pengajuan/'.$pengajuan['Id_Pengajuan_Pengadaan'].'/edit') ?>" class="btn btn-sm btn-info">Edit Pengadaan</a>
 
                 <?php
@@ -98,13 +107,13 @@
                     <p>
                         <?php echo $config_used['isi'] ?>
                     </p>
-                    
+
                         <?php
-                            if ($pengajuan['Progress'] == 'blm_lengkap' && $pengajuan['Surat_Pengembalian'] != null){
-                                echo '<a style="margin-top: 10px;" target="_BLANK" href="'.base_url('storage/surat/'.$pengajuan['Surat_Pengembalian']).'" class="btn btn-warning">Lihat Surat Pengembalian</a>';
+                            if ($pengajuan['Progress'] == 'blm_lengkap' && $pengajuan['No_Surat_Pengembalian'] != null){
+                                echo '<a style="margin-top: 10px;" target="_BLANK" href="'.base_url('/home/downSuratPengembalianBerkas/'.$pengajuan['Id_Pengajuan_Pengadaan']).'" class="btn btn-warning">Lihat Surat Pengembalian Berkas</a>';
                             }
 
-                            
+
 
                             if ($pengajuan['Progress'] == 'lelang_diterima' && /*$userLogin['Slug_Jabatan'] == 'ppk' && */ $userLogin['Id_User'] == $pengajuan['Id_User']){
                                 echo '<a href="'.base_url('ppk/pengajuan/cetak/hasilpokja/'.$pengajuan['Id_Pengajuan_Pengadaan']).'" class="btn btn-success" target="_BLANK" style="margin-top: 10px;">Cetak Hasil Lelang POKJA</a>';
@@ -112,13 +121,21 @@
 
                         ?>
                 </div>
-
                 <table class="table">
                     <tr class="success">
                         <td width="200px;">Posisi Pengajuan</td>
                         <td width="5px;">:</td>
                         <td>
-                            <?php echo $pengajuan['Nama_Jabatan'] ?>
+                            <?php
+                                if ($slug_posisi == 'pokja' && $userLogin['Slug_Jabatan'] == 'pokja'){
+                                    if ($pengajuan['Id_Pok'] != null){
+                                        $pokja =  $this->db->from('user')->where('Id_User', $pengajuan['Id_Pok'])->get()->row_array();
+                                        echo $pokja['Nama_Lengkap'] .'('. $pengajuan['Nama_Jabatan'] .')';
+                                    }
+                                } else {
+                                    echo $pengajuan['Nama_Jabatan'];
+                                }
+                            ?>
                         </td>
                     </tr>
 
@@ -126,8 +143,8 @@
                         <td width="200px;">PIN</td>
                         <td width="5px;">:</td>
                         <td>
-                            <?php 
-                                echo tampil_editable('pengajuan_pengadaan|Id_Pengajuan_Pengadaan|PIN', $pengajuan['Id_Pengajuan_Pengadaan'], '#'.$pengajuan['PIN'], 'text', 'editable_pengajuan'); 
+                            <?php
+                                echo tampil_editable('pengajuan_pengadaan|Id_Pengajuan_Pengadaan|PIN', $pengajuan['Id_Pengajuan_Pengadaan'], '#'.$pengajuan['PIN'], 'text', 'editable_pengajuan');
                             ?>
                         </td>
                     </tr>
@@ -136,8 +153,8 @@
                         <td width="200px;">Nama Kegiatan</td>
                         <td width="5px;">:</td>
                         <td>
-                            <?php 
-                                echo tampil_editable('pengajuan_pengadaan|Id_Pengajuan_Pengadaan|Nama_Kegiatan', $pengajuan['Id_Pengajuan_Pengadaan'], $pengajuan['Nama_Kegiatan'], 'text', 'editable_pengajuan'); 
+                            <?php
+                                echo tampil_editable('pengajuan_pengadaan|Id_Pengajuan_Pengadaan|Nama_Kegiatan', $pengajuan['Id_Pengajuan_Pengadaan'], $pengajuan['Nama_Kegiatan'], 'text', 'editable_pengajuan');
                             ?>
                         </td>
                     </tr>
@@ -146,8 +163,8 @@
                         <td width="200px;">Paket Pengadaan</td>
                         <td width="5px;">:</td>
                         <td>
-                            <?php 
-                                echo tampil_editable('pengajuan_pengadaan|Id_Pengajuan_Pengadaan|Paket_Pengadaan', $pengajuan['Id_Pengajuan_Pengadaan'], $pengajuan['Paket_Pengadaan'], 'text', 'editable_pengajuan'); 
+                            <?php
+                                echo tampil_editable('pengajuan_pengadaan|Id_Pengajuan_Pengadaan|Paket_Pengadaan', $pengajuan['Id_Pengajuan_Pengadaan'], $pengajuan['Paket_Pengadaan'], 'text', 'editable_pengajuan');
                             ?>
                         </td>
                     </tr>
@@ -156,8 +173,8 @@
                         <td width="200px;">Sumber Dana</td>
                         <td width="5px;">:</td>
                         <td>
-                            <?php 
-                                echo tampil_editable('pengajuan_pengadaan|Id_Pengajuan_Pengadaan|Sumber_Dana', $pengajuan['Id_Pengajuan_Pengadaan'], $pengajuan['Sumber_Dana'], 'text', 'editable_pengajuan'); 
+                            <?php
+                                echo tampil_editable('pengajuan_pengadaan|Id_Pengajuan_Pengadaan|Sumber_Dana', $pengajuan['Id_Pengajuan_Pengadaan'], $pengajuan['Sumber_Dana'], 'text', 'editable_pengajuan');
                             ?>
                         </td>
                     </tr>
@@ -166,8 +183,8 @@
                         <td width="200px;">Pagu Anggaran</td>
                         <td width="5px;">:</td>
                         <td>
-                            <?php 
-                                echo tampil_editable('pengajuan_pengadaan|Id_Pengajuan_Pengadaan|Pagu_Anggaran', $pengajuan['Id_Pengajuan_Pengadaan'], $pengajuan['Pagu_Anggaran'], 'text', 'editable_pengajuan'); 
+                            <?php
+                                echo rupiahFormat(tampil_editable('pengajuan_pengadaan|Id_Pengajuan_Pengadaan|Pagu_Anggaran', $pengajuan['Id_Pengajuan_Pengadaan'], $pengajuan['Pagu_Anggaran'], 'text', 'editable_pengajuan'));
                             ?>
                         </td>
                     </tr>
@@ -176,8 +193,8 @@
                         <td width="200px;">HPS</td>
                         <td width="5px;">:</td>
                         <td>
-                            <?php 
-                                echo tampil_editable('pengajuan_pengadaan|Id_Pengajuan_Pengadaan|HPS', $pengajuan['Id_Pengajuan_Pengadaan'], $pengajuan['HPS'], 'text', 'editable_pengajuan'); 
+                            <?php
+                                echo rupiahFormat(tampil_editable('pengajuan_pengadaan|Id_Pengajuan_Pengadaan|HPS', $pengajuan['Id_Pengajuan_Pengadaan'], $pengajuan['HPS'], 'text', 'editable_pengajuan'));
                             ?>
                         </td>
                     </tr>
@@ -186,8 +203,8 @@
                         <td width="200px;">Kode Rekening/MAK</td>
                         <td width="5px;">:</td>
                         <td>
-                            <?php 
-                                echo tampil_editable('pengajuan_pengadaan|Id_Pengajuan_Pengadaan|Kode_Rekening_Max', $pengajuan['Id_Pengajuan_Pengadaan'], $pengajuan['Kode_Rekening_Max'], 'text', 'editable_pengajuan'); 
+                            <?php
+                                echo tampil_editable('pengajuan_pengadaan|Id_Pengajuan_Pengadaan|Kode_Rekening_Max', $pengajuan['Id_Pengajuan_Pengadaan'], $pengajuan['Kode_Rekening_Max'], 'text', 'editable_pengajuan');
                             ?>
                         </td>
                     </tr>
@@ -196,8 +213,8 @@
                         <td width="200px;">Kode RUP</td>
                         <td width="5px;">:</td>
                         <td>
-                            <?php 
-                                echo tampil_editable('pengajuan_pengadaan|Id_Pengajuan_Pengadaan|Kode_RUP', $pengajuan['Id_Pengajuan_Pengadaan'], $pengajuan['Kode_RUP'], 'text', 'editable_pengajuan'); 
+                            <?php
+                                echo tampil_editable('pengajuan_pengadaan|Id_Pengajuan_Pengadaan|Kode_RUP', $pengajuan['Id_Pengajuan_Pengadaan'], $pengajuan['Kode_RUP'], 'text', 'editable_pengajuan');
                             ?>
                         </td>
                     </tr>
@@ -206,8 +223,8 @@
                         <td width="200px;">Jenis Kontrak</td>
                         <td width="5px;">:</td>
                         <td>
-                            <?php 
-                                echo tampil_editable('pengajuan_pengadaan|Id_Pengajuan_Pengadaan|Jenis_Kontrak', $pengajuan['Id_Pengajuan_Pengadaan'], $pengajuan['Jenis_Kontrak'], 'text', 'editable_pengajuan'); 
+                            <?php
+                                echo tampil_editable('pengajuan_pengadaan|Id_Pengajuan_Pengadaan|Jenis_Kontrak', $pengajuan['Id_Pengajuan_Pengadaan'], $pengajuan['Jenis_Kontrak'], 'text', 'editable_pengajuan');
                             ?>
                         </td>
                     </tr>
@@ -216,8 +233,8 @@
                         <td width="200px;">Jenis Pengadaan</td>
                         <td width="5px;">:</td>
                         <td>
-                            <?php 
-                                echo tampil_editable('pengajuan_pengadaan|Id_Pengajuan_Pengadaan|Jenis_Barang', $pengajuan['Id_Pengajuan_Pengadaan'], $pengajuan['Jenis_Barang'], 'text', 'editable_pengajuan'); 
+                            <?php
+                                echo tampil_editable('pengajuan_pengadaan|Id_Pengajuan_Pengadaan|Jenis_Barang', $pengajuan['Id_Pengajuan_Pengadaan'], $pengajuan['Jenis_Barang'], 'text', 'editable_pengajuan');
                             ?>
                         </td>
                     </tr>
@@ -230,15 +247,23 @@
 
                     <tr>
                         <?php
+
+                        if ($userLogin['Slug_Jabatan']=='pokja' && $slug_posisi == 'pokja'){
                             $opd = $this->db->from('master_skpd')->join('user', 'user.Master_Skpd_Id = master_skpd.Master_Skpd_Id')
+                                    ->where('Id_User', $pengajuan['Id_Us'])->get()->row_array();
+                                    
+                                } else {
+                                   $opd = $this->db->from('master_skpd')->join('user', 'user.Master_Skpd_Id = master_skpd.Master_Skpd_Id')
                                     ->where('Id_User', $pengajuan['Id_User'])->get()->row_array();
+                                }
+                            
                         ?>
                         <td>
                             OPD
                         </td>
                         <td>:</td>
                         <td>
-                            <?php 
+                            <?php
                                 if (sizeof($opd) != 0){
                                     echo $opd['Nama_Skpd'];
                                 }
@@ -260,7 +285,22 @@
                             ?>
                         </td>
                     </tr>
+                    <tr>
+                        <td>Nama Pokja</td>
+                        <td>:</td>
+                        <td>
+                        <?php
 
+                            if ($pengajuan['Id_Pok'] != null){
+                                $pokja =  $this->db->from('user')->where('Id_User', $pengajuan['Id_Pok'])->get()->row_array();
+                                echo $pokja['Nama_Lengkap'] .'('. $pokja['Username'] .')';
+                            }
+                            else{
+                                echo '<i>Pokja belum dipilih</i>';
+                            }
+                        ?>
+                        </td>
+                    </tr>
                     <tr>
                         <td>Surat Tugas Pokja</td>
                         <td>:</td>
@@ -268,7 +308,7 @@
                             <?php
 
                                 if ($pengajuan['Surat_Tugas_Pokja'] != null){
-                                    echo 'Nomor Surat Pokja Sudah dimasukan <a target="_BLANK" href="'.base_url('home/dwnSuratTugasPokja/'.$pengajuan['Id_Pengajuan_Pengadaan']).'">Lihat Surat Tugas Pokja</a>';
+                                    echo 'Nomor Surat Pokja Sudah dimasukan <a target="_BLANK" href="'.base_url('storage/file_surat_pokja/'.$pengajuan['Surat_Tugas_Pokja']).'">Lihat Surat Tugas Pokja</a>';
                                 }
                                 else{
                                     echo '<i>Surat Tugas belum dimasukan</i>';
@@ -308,7 +348,7 @@
                     </tr>
 
                     <tr>
-                        <td width="150px;">Jumlah Sanggahan Monev</td>
+                        <td width="150px;">Jumlah Sanggahan KSB Pengelolaan Pengadaan Barang/Jasa</td>
                         <td width="5px;">:</td>
                         <td>
                             <?php
@@ -323,7 +363,7 @@
                     </tr>
 
                     <tr>
-                        <td width="150px;">File Pendukung dari Monev</td>
+                        <td width="150px;">File Pendukung dari KSB Pengelolaan Pengadaan Barang/Jasa</td>
                         <td width="5px;">:</td>
                         <td>
                             <?php
@@ -354,7 +394,7 @@
             </div>
             <div class="table-responsive">
                 <table class="table  table-condensed table-striped">
-                    
+
                     <?php
 
                         $fileDownload = '';
@@ -368,8 +408,8 @@
                                 else{
                                     $fileDownload = '';
                                 }
-                                
-                            }                            
+
+                            }
                             else{
                                 $fileDownload = '';
                             }
@@ -379,7 +419,7 @@
 
 
                                     if ($isiCatatanKelengkapan){
-                                        
+
                                         if (isset($value['isian'])){
                                             if ($slug_posisi == 'fo'){
                                                 $fieldChPosisi = $value['isian']['Ch_Fo'];
@@ -400,43 +440,43 @@
                                         }
 
 
-                                        echo '<td>
+                                        echo '<th>
                                                 <input type="checkbox" '.$ch.' name="chc_Kelengkapan['.$value['Id_Kelengkapan'].']" class="chc_kelengkapan_item" data-isrequired="'.$value['Is_Required'].'">
-                                            </td>';
+                                            </th>';
                                     }
                                 ?>
-                                <td>
-                                    <?php 
+                                <th>
+                                    <?php
                                         if ($fileDownload != ''){
                                             echo '<a title="Kelengkapan dipenuhi" data-toggle="tooltip" href="'.$fileDownload.'" target="_BLANK">'.$value['Deskripsi'].'</a>';
 
 
                                         }
                                         else{
-                                            echo '<a href="javascript:void(0)" data-toggle="tooltip" title="Kelengekapan tidak dipenuhi" class="text-danger">'.$value['Deskripsi'].'</a>';
+                                            echo '<a href="javascript:void(0)" data-toggle="tooltip" title="Kelengkapan tidak dipenuhi" class="text-danger">'.$value['Deskripsi'].'</a>';
                                         }
 
                                         if ($value['Is_Required'] == '1'){
                                             echo '&nbsp;<span class="text-danger">*<span>';
-                                        }   
+                                        }
 
                                     ?>
-                                </td>
+                                </th>
 
                                 <?php
                                     if ($isiCatatanKelengkapan){
 
 
 
-                                        echo '<td>
+                                        echo '<th>
                                                 <input type="text" placeholder="Catatan" class="form-control" name="Catatan_Kelengkapan['.$value['Id_Kelengkapan'].']">
-                                            </td>';
-                                    
+                                            </th>';
+
 
                                     }
                                 ?>
 
-                                <td>
+                                <th>
                                     <?php
 
                                         $warna_btn = 'success';
@@ -449,9 +489,9 @@
                                                 $warna_btn = 'warning';
                                             }
                                         }
-                                        
 
-                                        
+
+
 
 
                                         if (isset($value['isian'])){
@@ -465,22 +505,22 @@
 
                                     ?>
 
-                                            <a href="javascript:void(0)" 
-                                                data-description="<?php echo $value['Deskripsi'] ?>" 
-                                                data-chcfo="<?php echo $value['isian']['Ch_Fo'] ?>" 
-                                                data-chcren="<?php echo $value['isian']['Ch_Ksb_Ren'] ?>" 
-                                                data-catfo="<?php echo $ket_fo ?>" 
-                                                data-catren="<?php echo $value['isian']['Ket_Ksb_Ren'] ?>" 
+                                            <a href="javascript:void(0)"
+                                                data-description="<?php echo $value['Deskripsi'] ?>"
+                                                data-chcfo="<?php echo $value['isian']['Ch_Fo'] ?>"
+                                                data-chcren="<?php echo $value['isian']['Ch_Ksb_Ren'] ?>"
+                                                data-catfo="<?php echo $ket_fo ?>"
+                                                data-catren="<?php echo $value['isian']['Ket_Ksb_Ren'] ?>"
                                                 class="btn btn-<?php echo $warna_btn; ?> btn-xs lihatDetailCatatanPopup" title="Lihat Catatan dari Frontoffice dan KSB Perencanaan yang sudah masuk" data-toggle="tooltip">Lihat Catatan</a>
                                     <?php
                                             }
 
                                         }
                                     ?>
-                                </td>
+                                </th>
 
 
-                                <td>
+                                <th>
                                     <?php
                                         if (isset($value['isian'])){
                                             if (isset($value['jumlah_cat_pokja']) && $value['jumlah_cat_pokja'] != 0){
@@ -491,11 +531,11 @@
                                             }
                                         }
                                     ?>
-                                </td>
-                                
+                                </th>
+
                                 <?php
                                     if ($userLogin['Slug_Jabatan'] == 'anggota_pokja' || $userLogin['Slug_Jabatan'] == 'pokja'){
-                                        
+
                                         if (isset($value['isian']) && $progress_pengajuan == 'setuju_seleksi'){
 
                                             if (isset($value['catatan_anggota_personal']) && $value['catatan_anggota_personal'] != null){
@@ -509,9 +549,34 @@
                                                     <input type="text" placeholder="Catatan Pokja" class="form-control" value="'.$value_personal_cat.'" name="Catatan_Kelengkapan_Pokja['.$value['isian']['Id_Pengajuan_Pengadaan_Kelengkapan'].']">
                                                 </td>';
                                         }
-                                    }   
+                                    }
                                 ?>
                             </tr>
+
+
+                            <?php
+
+                                if (isset($value['isian']['Id_Pengajuan_Pengadaan_Kelengkapan'])){
+
+                                    $old_file = $this->db->from('pengajuan_pengadaan_kelengkapan_history')
+                                                ->where('Id_Pengajuan_Pengadaan_Kelengkapan', $value['isian']['Id_Pengajuan_Pengadaan_Kelengkapan'])->get()->result_array();
+
+
+                                    foreach ($old_file as $key1 => $value1) {
+
+                                        ?>
+                                            <tr>
+                                                <td colspan="2">
+                                                    <a target="_BLANK" style="color: #888" href="<?php echo base_url('storage/kelengkapan/' . $value1['Nama_File']); ?>" >&nbsp;&nbsp;<i class="fa fa-level-up  fa-rotate-90"></i> Lihat file sebelumnya</a>
+                                                </td>
+                                                <td style="color: #888"><?php echo $value1['created_at']; ?></td>
+                                            </tr>
+                                        <?php
+                                    }
+
+                                }
+                            ?>
+
                     <?php
                         }
                     ?>
@@ -523,7 +588,7 @@
     <div class="col-lg-4">
         <div class="panel panel-minimal">
             <div class="panel-heading"><h5 class="panel-title"><i class="ico-health mr5"></i>History Catatan</h5></div>
-            
+
             <ul class="media-list media-list-feed nm" style="max-height: 1000px; overflow: auto;">
                 <?php
                     foreach ($catatan as $key => $value) {
@@ -548,32 +613,36 @@
                                 <p class="media-meta"><?php echo $value['Created_At'] ?></p>
                             </div>
                         </li>
-                
+
                 <?php
                     }
                 ?>
+
+
             </ul>
+
+            <a target="_BLANK" href="<?php echo base_url('home/cetakHistoryCatatan/' . $pengajuan['Id_Pengajuan_Pengadaan']) ?>" class="btn btn-success">Cetak History Catatan</a>
         </div>
     </div>
 
 </div>
 
 <div class="row">
-    
+
     <div class="col-md-12">
         <?php
 
             if ($progress_pengajuan == 'lelang_diterima'){
                 $hasil_lelang = $this->db->from('pengadaan_hasil_lelang')->where('Id_Pengajuan_Pengadaan', $pengajuan['Id_Pengajuan_Pengadaan'])->get()->row_array();
                 $hasil_lelang_file = $this->db->from('pengadaan_hasil_lelang_file')->where('Id_Pengajuan_Pengadaan', $pengajuan['Id_Pengajuan_Pengadaan'])->get()->result_array();
-                
+
             ?>
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h3 class="panel-title">Hasil Lelang</h3>
                     </div>
                     <div class="panel-body">
-                        
+
                         <table class="table">
                             <tr>
                                 <td width="200px;">Tanggal Pengumuman</td>
@@ -587,9 +656,19 @@
                             </td>
 
                             <tr>
+                                <td width="200px;">Nama Pemenang</td>
+                                <td width="5px;">:</td>
+                                <td><?php echo $hasil_lelang['Nama_Pemenang'] ?></td>
+                            </td>
+                            <tr>
                                 <td width="200px;">NPWP</td>
                                 <td width="5px;">:</td>
                                 <td><?php echo $hasil_lelang['NPWP'] ?></td>
+                            </td>
+                            <tr>
+                                <td width="200px;">Alamat Pemenang</td>
+                                <td width="5px;">:</td>
+                                <td><?php echo $hasil_lelang['Alamat_Pemenang'] ?></td>
                             </td>
 
                             <tr>
@@ -637,13 +716,15 @@
                             </tbody>
 
                         </table>
-
-                    </div>
+                        <?php if (($slug_posisi == 'ppk') && ($userLogin['Slug_Jabatan'] == 'ppk')): ?>
+                          <a target="_BLANK" href="<?php echo base_url('ppk/pengajuan/form_realisasi/' . $pengajuan['Id_Pengajuan_Pengadaan']) ?>" class="btn btn-success">Masukan Data Realisasi </a>
+                        <?php endif ?>
+                      </div>
                 </div>
             <?php
             }
 
-            if ($slug_posisi == 'ppk' && $userLogin['Slug_Jabatan'] == 'ppk'){
+            if ($slug_posisi == 'ppk' && $userLogin['Slug_Jabatan'] == 'ppk' && $pengajuan['Id_User'] == $userLogin['Id_User']){
                 if ($progress_pengajuan == 'draft' || $progress_pengajuan == 'blm_lengkap' || $progress_pengajuan == 'tolak_fo'){
                     $this->load->view('partials/aksi_ppk_kirim_ke_fo');
                 }
@@ -652,19 +733,26 @@
                     $this->load->view('partials/aksi_ppk_hasil_kaji_perbaikan');
                 }
 
-                if ($progress_pengajuan == 'lelang_diterima'){
-                    $this->load->view('partials/aksi_ppk_lelang_diterima');
+                // if ($progress_pengajuan == 'lelang_diterima'){
+                //     $this->load->view('partials/aksi_ppk_lelang_diterima');
+                // }
+            }
+
+          //  if ($slug_posisi == 'fo' && $userLogin['Slug_Jabatan'] == 'fo'){
+           //     if ($progress_pengajuan == 'fo'){
+            //        $this->load->view('partials/aksi_fo_kelengkapan');
+             //   }
+           // }
+
+            if ($slug_posisi == 'ksb_ren' && $userLogin['Slug_Jabatan'] == 'ksb_ren'){
+                if ($progress_pengajuan == 'terima_fo'){
+                    $this->load->view('partials/aksi_ksb_ren_kelengkapan');
+
                 }
             }
 
             if ($slug_posisi == 'fo' && $userLogin['Slug_Jabatan'] == 'fo'){
                 if ($progress_pengajuan == 'fo'){
-                    $this->load->view('partials/aksi_fo_kelengkapan');
-                }
-            }
-
-            if ($slug_posisi == 'ksb_ren' && $userLogin['Slug_Jabatan'] == 'ksb_ren'){
-                if ($progress_pengajuan == 'terima_fo'){
                     $this->load->view('partials/aksi_ksb_ren_kelengkapan');
 
                 }
@@ -677,8 +765,23 @@
                 if($progress_pengajuan == 'usul_ke_kabag_peng'){
                     $this->load->view('partials/aksi_kabag_peng_hasil_seleksi');
                 }
+                if ($progress_pengajuan == 'terima_fo'){
+                    $this->load->view('partials/aksi_kabag_usul_ke_kabag_peng');
+                }
             }
-            
+
+
+            if($slug_posisi=='ksb_ren' && $userLogin['Slug_Jabatan']=='ksb_ren'){
+                if($progress_pengajuan == 'usul_ke_kabag_peng'){
+                    $this->load->view('partials/aksi_kabag_peng_hasil_seleksi');
+                }
+
+            }
+
+            if($slug_posisi=='ksb_pel' && $userLogin['Slug_Jabatan']=='ksb_pel'){
+                
+
+            }
 
             if ($slug_posisi == 'ksb_pel' && $userLogin['Slug_Jabatan'] == 'ksb_pel'){
                 if ($progress_pengajuan == 'terima_ksb_ren'){
@@ -692,13 +795,24 @@
                 if ($progress_pengajuan == 'ksb_pel_upl_surat_trc'){
                     $this->load->view('partials/aksi_ksb_pel_trc_selesai');
                 }
+                if ($progress_pengajuan == 'pokja_kirim_lelang'){
+                    $this->load->view('partials/aksi_monev_hasil_sanggahan');
+                }
+                if($progress_pengajuan == 'usul_ke_kabag_peng'){
+                    $this->load->view('partials/aksi_kabag_peng_hasil_seleksi');
+                }
             }
+
 
             if ($slug_posisi == 'pokja' && $userLogin['Slug_Jabatan'] == 'pokja'){
 
-                // if ($progress_pengajuan == 'setuju_seleksi' || ){
+
+               // if ($userLogin['Id_User'] == $pengajuan['Id_Pok']){
+
+                // if ($pengajuan['Peng_id'] == $pengajuan['Id_Peng'] ){
                     $this->load->view('partials/aksi_pokja_kirim_hasil_kaji');
-                // }
+                 //}
+                //}
 
                 // if ($progress_pengajuan == 'setuju_seleksi'){
                 //     $this->load->view('partials/aksi_pokja_isi_catatan');
@@ -706,8 +820,15 @@
             }
 
             if ($slug_posisi == 'pokja' && $userLogin['Slug_Jabatan'] == 'anggota_pokja' && $pengajuan['Progress'] == 'setuju_seleksi'){
-                $this->load->view('partials/aksi_anggota_pokja_isi_catatan');
+
+                if ($userLogin['Id_User'] == $pengajuan['Id_Pok'] || $userLogin['Id_Pokja'] == $pengajuan['Id_Pok']){
+
+                    $this->load->view('partials/aksi_anggota_pokja_isi_catatan');
+                }
+
             }
+
+
 
             if ($slug_posisi == 'monev' && $userLogin['Slug_Jabatan'] == 'monev'){
                 if ($progress_pengajuan == 'pokja_kirim_lelang'){
@@ -723,9 +844,15 @@
                 if ($progress_pengajuan == 'permintaan_trc'){
                     $this->load->view('partials/aksi_kabag_trc');
                 }
-            } 
+            }
+
+            if($userLogin['Slug_Jabatan'] =='admin'){
+                $this->load->view('partials/pindah_proses.php');
+            }
         ?>
     </div>
+
+</div>
 
 </div>
 <?php
@@ -744,7 +871,7 @@
         <h4 class="modal-title">Catatan Kelengkapan <span id="nama_kelengkapan"></span></h4>
       </div>
       <div class="modal-body table-responsive" id="targetKelengkapanDetail">
-            
+
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
@@ -762,7 +889,7 @@
 </script>
 
  <script type="text/javascript">
-    
+
     function lihatCatatanPokja(id_catatan_kelengkapan, desc){
         $.get("<?php echo base_url('ajax/lihatcatatanpokja/') ?>" + id_catatan_kelengkapan + '/<?php echo $pengajuan['Id_Pengajuan_Pengadaan'] ?>', function(ajax_response){
             $('#nama_kelengkapan').html(desc);
@@ -785,7 +912,7 @@
 
             var chcFo = $(this).data('chcfo');
             var chcRen = $(this).data('chcren');
-            
+
             var catFo = $(this).data('catfo');
             var catRen = $(this).data('catren');
 
@@ -800,7 +927,7 @@
 
             var description = $(this).data('description');
             $('#nama_kelengkapan').html(description);
-            
+
             var chFo = '<span class="label label-primary">Kelengkapan disetujui</span>';
             if (chcFo == 0){
                 chFo = '<span class="label label-danger">Kelengkapan belum disetujui</span>';
@@ -816,14 +943,14 @@
             if (catFo != ''){
                 result +='<tr><td>Frontoffice</td><td width="50px;">'+ chFo +'</td><td>'+ catFo +'</td></tr>';
             }
-            
+
             if (catRen != ''){
                 result += '<tr><td>KSB Perancanaan</td><td>'+ chRen +'</td><td>'+ catRen +'</td></tr></table>';
             }
 
             $('#targetKelengkapanDetail').html(result);
             $('#myModal').modal("show");
-            
+
         });
     });
 
@@ -846,7 +973,7 @@
         });
     }
 
-
+ 
 </script>
 
 
@@ -870,18 +997,21 @@
                     <div class="form-group">
                         <label class="control-label">Catatan Pembatalan</label>
                         <textarea class="summernote" name="Catatan">
-        
+
                         </textarea>
                     </div>
                     <div class="form-group">
                         <label class="control-label">Password</label>
                         <input type="password" name="Password" class="form-control" placeholder="Password">
                     </div>
-                    
-                    
+
+
                     <input type="submit" class="btn btn-primary btn-block" value="Batalkan Pengajuan">
-            </form> 
+
+            </form>
+
     </div>
     </div></div>
 </div>
 
+        

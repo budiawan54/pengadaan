@@ -28,6 +28,20 @@
             </p>
         </div>
 
+        <?php
+            if ($user['Nama_Lengkap'] == NULL || $user['Nama_Lengkap'] == ''){
+        ?>
+                <div class="alert alert-danger">
+                    <h4 class="semibold">Perhatian</h4>
+                    <p class="mb10">
+                        Anda belum melengkapi data akun anda. Mohon memasukannya dengan mengedit detail akun anda di halaman berikut.
+                    </p>    
+                        <a href="<?php echo base_url('profil') ?>" class="btn btn-danger"><i class="fa fa-pencil"></i> Edit Akun</a>
+                </div> 
+        <?php
+            }
+        ?>
+
     </div>
     
 
@@ -76,20 +90,7 @@
         </a>
     </div>
 
-    <div class="col-sm-3">
-        <a href="<?php echo base_url('chat') ?>">
-            <div class="table-layout">
-                <div class="col-xs-3 panel bgcolor-warning text-center">
-                    <div class="fa fa-envelope fsize24"></div>
-                </div>
-                <div class="col-xs-9 panel">
-                    <div class="panel-body text-center">
-                        <h5 class="semibold text-muted mb0 mt5 ellipsis">Chat dengan BLP</h5>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </div>
-
 </div>
+
+
 <?php $this->load->view('universal/daftar_pengajuan_table'); ?>

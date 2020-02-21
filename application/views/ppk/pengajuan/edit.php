@@ -1,4 +1,6 @@
 
+<link rel="stylesheet" type="text/css" href="<?php echo base_url('resources/bower_components/jquery-confirm-master/dist/jquery-confirm.min.css') ?>">
+
 <form action="<?php echo base_url('/ppk/pengajuan/'.$pengajuan['Id_Pengajuan_Pengadaan'].'/edit') ?>" enctype="multipart/form-data" method="POST" id="form-pengajuan">
 <link rel="stylesheet" type="text/css" href="<?php echo base_url('/resources/plugins/select2/css/select2-4.css') ?>">
     <div class="page-header page-header-block">
@@ -152,6 +154,7 @@
                 <table class="table table-striped table-hover">
                     <?php
                         foreach ($kelengkapan as $key => $value) {
+                            
                             $i = $key + 1;
                             ?>
                                 <tr>
@@ -176,10 +179,19 @@
                                         <?php
                                             if (isset($value['isian'])){
                                                 if ($value['isian']['Nama_File'] != null){
-                                                    echo '<a href="'.base_url('storage/kelengkapan').'/'.$value['isian']['Nama_File'].'" target="_BLANK">Lihat file sebelumnya</a>';
+                                                    echo '<a class="label label-success" href="'.base_url('storage/kelengkapan').'/'.$value['isian']['Nama_File'].'" target="_BLANK"><i class="fa fa-download"></i> Lihat file sebelumnya</a>';
                                                 }
                                             }
 
+                                        ?>
+                                    </td>
+                                    <td>
+                                        <?php
+                                            if($value['Is_Required'] == 0 && isset($value['isian'])){
+                                        ?>
+                                            <a href="javascript:void(0)" onclick="deleteKelengkapan(<?php echo $value['isian']['Id_Pengajuan_Pengadaan_Kelengkapan'] ?>)" class="btn btn-danger btn-sm" title="Hapus File" data-toggle="tooltip"><i class="fa fa-trash-o"></i></a>
+                                        <?php
+                                            }
                                         ?>
                                     </td>
                                 </tr>
@@ -202,12 +214,34 @@
 </div>
 </form>
 
+
+<form action="<?php echo base_url('/ppk/pengajuan/hapus_kelengkapan/'. $pengajuan['Id_Pengajuan_Pengadaan']) ?>" method="POST" id="form_hapus">
+    <input type="hidden" name="Id_Pengajuan_Pengadaan_Kelengkapan" id="id_kelengkapan_hapus">
+</form>
+
 <script type="text/javascript" src="<?php echo base_url('/resources/plugins/select2/js/select2-4.js') ?>"></script>
 <script type="text/javascript" src="<?php echo base_url('/resources/plugins/maskMoney.js') ?>"></script>
 <script type="text/javascript" src="<?php echo base_url('/resources/plugins/bootstrap-filestyle-1.2.1/src/bootstrap-filestyle.min.js') ?>"></script>
-
+<script type="text/javascript" src="<?php echo base_url('/resources/bower_components/jquery-confirm-master/dist/jquery-confirm.min.js') ?>"></script>
 
 <script type="text/javascript">
+
+    function deleteKelengkapan(Id_Pengajuan_Pengadaan_Kelengkapan){
+        $.confirm({
+            title: 'Konfirmasi!',
+            content: 'Apakah anda yakin untuk menghapus file kelengkapan ini? Aksi tidak dapat di kembalikan.',
+            buttons: {
+                confirm: function () {
+                    $('#id_kelengkapan_hapus').val(Id_Pengajuan_Pengadaan_Kelengkapan);
+                    $('#form_hapus').trigger("submit");
+                },
+                cancel: function () {
+                    
+                }
+            }
+        });
+    }
+
     function confBootBox(pesan, callback2){
         bootbox.confirm({
             message: pesan,
@@ -240,7 +274,13 @@
         //         if (resul == true){
         //             submitPengajuan = true;
                     $('#btn_submit_pengajuan').button("loading");
-                    $('#alet_loading').slideDown();
+                    // $('#alet_loading').slideDown();
+                    
+                    var dialog = bootbox.dialog({
+                        message: '<p class="text-center">Sedang mengirim data...</p>',
+                        closeButton: false
+                    });
+
                     // $('#form-pengajuan').trigger('submit');
         //         }
         //     });

@@ -4,7 +4,7 @@
     
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">Daftar Pengajuan PPK</h3>
+                <h3 class="panel-title">Daftar Pengajuan</h3>
             </div>
             <div class="panel-body">
                 
@@ -36,11 +36,12 @@
                                 <th>Tanggal Pengajuan</th>
                                 <th>Kegiatan</th>
                                 <th>Paket</th>
-                                <th>Catatan Terakhir</th>
+                                <th>Opd</th>
                                 <th>Tanggal Update</th>
                                 <th>Posisi</th>
                                 <th style="width: 100px;">Status</th>
                                 <th>Aksi</th>
+                                
                             </tr>
                         </thead>
                     </table>
@@ -97,7 +98,7 @@
                 {data : "Created_At"},
                 {data : "Nama_Kegiatan"},
                 {data : "Paket_Pengadaan"},
-                {data : "last_catatan"},
+                {data : "Nama_Skpd"},
                 {data : "Updated_At"},
                 {data : "Nama_Jabatan"},
                 {
@@ -107,6 +108,7 @@
                     }
                 },
                 {data : "aksi"},
+
 
             ]
         });

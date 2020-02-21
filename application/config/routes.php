@@ -54,6 +54,7 @@ $route['404_override']                       = '';
 $route['translate_uri_dashes']               = FALSE;
 
 $route['home']['get']                       = 'home/homePage';
+$route['generate']['get']                       = 'home/generate';
 $route['login']['get']                       = 'home/login';
 $route['login']['post']                      = 'home/loginAction';
 
@@ -68,7 +69,7 @@ $route['profil/password']['post']            = 'home/passwordUbah';
 $route['/']['get']                           = 'home/index';
 
 $route['ppk/pengajuan/tambah']['get']        = 'ppk/pengajuan/add';
-$route['ppk/pengajuan/tambah']['post']       = 'ppk/pengajuan/storeAdd';
+$route['ppk/pengajuan/tambah/submit']        = 'ppk/pengajuan/storeAdd';
 $route['ppk/pengajuan/(:num)']['get']        = 'ppk/pengajuan/detail/$1';
 $route['ppk/pengajuan/(:num)/edit']['get']   = 'ppk/pengajuan/editPengajuan/$1';
 $route['ppk/pengajuan/(:num)/edit']['post']   = 'ppk/pengajuan/submitEditPengajuan/$1';
@@ -76,6 +77,8 @@ $route['ppk/pengajuan']['get']               = 'ppk/pengajuan/daftarPengajuan';
 $route['ppk/pengajuan/kirimkefo']['post']    = 'ppk/pengajuan/kirimKeFo/$1';
 $route['ppk/pengajuan/download/lembarverifikasi/(:num)']['get']  = 'ppk/pengajuan/downloadLembarVerifikasi/$1';
 $route['ppk/pengajuan/cetak/hasilpokja/(:num)']['get']               = 'ppk/pengajuan/cetakHasilPokja/$1';
+$route['ppk/realisasi']['get']   			 = 'ppk/realisasi';
+$route['ppk/realisasi/tambah']['get']        = 'ppk/realisasi/add';
 
 
 
@@ -133,3 +136,4 @@ $route['admin/masterskpd/tambah']['post']        = 'admin/masterskpd/submitTamba
 $route['admin/masterskpd/edit/(:num)']['get']        = 'admin/masterskpd/edit/$1';
 $route['admin/masterskpd/edit/(:num)']['post']        = 'admin/masterskpd/editStore/$1';
 
+$route['admin/realisasi']['get']   = 'admin/realisasi';

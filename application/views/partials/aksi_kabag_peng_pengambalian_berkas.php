@@ -9,8 +9,12 @@
 			
 			<div class="panel-body">
 				<div class="form-group">
-					<label class="control-label">Surat Pengembalian Berkas</label>
-					<input type="file" name="fileUpload" required="">
+					<div class="row">
+						<div class="col-md-5">
+							<label class="control-label">No Surat Pengembalian Berkas </label>
+							<input type="text" name="No_Surat_Pengembalian" required="" class="form-control">
+						</div>
+					</div>
 				</div>
 				<div class="form-group">
 					<label class="control-label">Catatan</label>

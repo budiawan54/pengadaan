@@ -7,7 +7,7 @@
 <table style="text-align: center;">
 	<tr>
 		<td colspan="2"></td>
-		<td>Singaraja, <?php echo getDates(date('Y-m-d')) ?></td>
+		<td>Bangli, <?php echo getDates(date('Y-m-d')) ?></td>
 	</tr>
 	<tr>
 		<td></td>
@@ -16,7 +16,7 @@
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			
+
 		</td>
 		<td>POKJA</td>
 	</tr>
@@ -38,7 +38,7 @@
 	</tr>
 </table>
 
-	
+
 <br>
 <br>
 <br>

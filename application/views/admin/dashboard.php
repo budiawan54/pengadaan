@@ -15,7 +15,7 @@
 
 <div class="row">
     <div class="col-lg-12">
-        
+
         <div class="alert alert-success">
             <h4 class="semibold">Selamat Datang Admin</h4>
             <p class="mb10">
@@ -27,9 +27,8 @@
             </ol>
             </p>
         </div>
-
     </div>
-    
+
 
     <div class="col-sm-3">
         <a href="<?php echo base_url('profil') ?>">
@@ -39,7 +38,7 @@
                 </div>
                 <div class="col-xs-9 panel">
                     <div class="panel-body text-center">
-                        <h5 class="semibold text-muted mb0 mt5 ellipsis">Profil Saya</h5>
+                        <h5 class="semibold text-muted mb0 mt5 ellipsis">Profil Saya<br />&nbsp;</h5>
                     </div>
                 </div>
             </div>
@@ -54,7 +53,7 @@
                 </div>
                 <div class="col-xs-9 panel">
                     <div class="panel-body text-center">
-                        <h5 class="semibold text-muted mb0 mt5 ellipsis">Daftar Pengajuan PPK</h5>
+                        <h5 class="semibold text-muted mb0 mt5 ellipsis">Daftar<br /> Pengajuan PPK</h5>
                     </div>
                 </div>
             </div>
@@ -69,7 +68,22 @@
                 </div>
                 <div class="col-xs-9 panel">
                     <div class="panel-body text-center">
-                        <h5 class="semibold text-muted mb0 mt5 ellipsis">Manajemen Pengguna</h5>
+                        <h5 class="semibold text-muted mb0 mt5 ellipsis">Manajemen<br /> Pengguna</h5>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <div class="col-sm-3">
+        <a href="<?php echo base_url('admin/pengajuan/daftar_realisasi') ?>">
+            <div class="table-layout">
+                <div class="col-xs-3 panel bgcolor-warning text-center">
+                    <div class="fa fa-users fsize24"></div>
+                </div>
+                <div class="col-xs-9 panel">
+                    <div class="panel-body text-center">
+                        <h5 class="semibold text-muted mb0 mt5 ellipsis">Daftar<br />Realisasi</h5>
                     </div>
                 </div>
             </div>

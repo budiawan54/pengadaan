@@ -2,11 +2,10 @@
 <html class="backend">
 <head>
     <link rel="shortcut icon" href="<?php echo base_url('resources/image/logo.png') ?>">
-    
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Aplikasi Layanan Pengadaan &#8226; Kabupaten Buleleng</title>
-    <meta name="author" content="I Wayan Adi Sparta">
+    <title>Aplikasi Layanan Pengadaan &#8226; Provinsi Bali</title>
+    <meta name="author" content="">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -73,14 +72,14 @@
                                 <div class="panel-toolbar text-right">
                                     <div class="btn-group">
                                         <button type="button" data-toggle="modal" data-target="#myModal" class="btn btn-sm btn-primary">Informasi</button>
-                                        <!-- <button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></button>
+                                        <button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></button>
                                         <ul class="dropdown-menu dropdown-menu-right">
                                             <li class="dropdown-header">Select duration :</li>
                                             <li><a href="#">Year</a></li>
                                             <li><a href="#">Month</a></li>
                                             <li><a href="#">Week</a></li>
                                             <li><a href="#">Day</a></li>
-                                        </ul> -->
+                                        </ul> 
                                     </div>
                                 </div>
                             </div>
@@ -180,7 +179,7 @@
                <div class="row">
                    <div class="col-sm-6">
                        <!-- copyright -->
-                       <p class="nm text-muted">Badan Layanan Pengadaan Kabupaten Buleleng &copy; <span class="semibold">2017</span></p>
+                       <p class="nm text-muted">Badan Layanan Pengadaan Kabupaten Provinsi Bali &copy; <span class="semibold">2019</span></p>
                        <!--/ copyright -->
                    </div>
                </div>
@@ -208,7 +207,7 @@
             <h4 class="modal-title">Informasi</h4>
           </div>
           <div class="modal-body">  
-                <p><strong>Selamat Datang di Aplikasi Layanan Pengadaan Kabupaten Buleleng</strong>. Segala jenis pengajuan pengadaan dilakukan melalui sistem ini.</p>
+                <p><strong>Selamat Datang di Aplikasi Layanan Pengadaan Kabupaten Bangli</strong>. Segala jenis pengajuan pengadaan dilakukan melalui sistem ini.</p>
             </div>
         </div>
       </div>

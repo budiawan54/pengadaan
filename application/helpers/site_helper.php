@@ -78,9 +78,23 @@
 	    }
 	    return '';
 	}
+	
+	// YY-MM
+	function getBulan($date){
+		$ar_bulan = array('', 'Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember');
+	    $dates = explode('-', $date);
+		return $ar_bulan[(int)$dates[1]]. ' '. $dates[0];
+	}	
 
 	function space($i){
 		for($a = 0; $a < $i; $a++){
 			echo '&nbsp;';
 		}
+	}
+
+
+	function rupiahFormat($numb){
+		$numb = (int)$numb;
+		
+		return 'Rp. ' . number_format($numb, 0 , '' , '.' ) . ',-';
 	}

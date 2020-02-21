@@ -58,7 +58,7 @@
 							</select>
 				        </div>
 				    </div>
-					
+					<!--KETUA POKJA
 					<div class="form-group">
 					    <label class="control-label col-md-3">Ketua Pokja</label>
 					    <div class="col-md-4">
@@ -75,7 +75,7 @@
 				            <span class="help-block">Khusus akun anggota pokja</span>
 
 					    </div>
-					</div>
+					</div>-->
 
 					<div class="form-group">
 					    <label class="control-label col-md-3">Email</label>
@@ -99,7 +99,7 @@
 					</div>
 
 					<div class="form-group">
-					    <label class="control-label col-md-3">SKPD</label>
+					    <label class="control-label col-md-3">OPD</label>
 					    <div class="col-md-4">
 							<select name="Master_Skpd_Id" class="form-control">
 								<option></option>

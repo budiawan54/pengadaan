@@ -67,7 +67,7 @@
                 <div class="form-group">
                     <label class="control-label col-md-3">No. KTP</label>
                     <div class="col-md-6">
-                        <input type="text" name="No_Ktp" class="form-control" value="<?php echo $user['NIP_User'] ?>">
+                        <input type="text" name="No_Ktp" class="form-control" value="<?php echo $user['No_Ktp'] ?>">
                     </div>
                 </div>
 
@@ -99,6 +99,35 @@
                         <input type="text" name="No_Telegram" class="form-control" value="<?php echo $user['No_Telegram'] ?>">
                     </div>
                 </div>
+
+                <?php
+                    if($user['Slug_Jabatan'] == 'ppk'){
+                ?>
+
+                    <div class="form-group">
+                        <label class="control-label col-md-3">OPD</label>
+                        <div class="col-md-4">
+                            <select name="Master_Skpd_Id" class="form-control">
+                                <option></option>
+                                <?php
+                                    foreach ($skpd as $key => $value) {
+                                        if ($user['Master_Skpd_Id'] == $value['Master_Skpd_Id']){
+
+                                            echo '<option selected value="'.$value['Master_Skpd_Id'].'">'.$value['Nama_Skpd'].'</option>';
+                                        }
+                                        else{
+                                            echo '<option value="'.$value['Master_Skpd_Id'].'">'.$value['Nama_Skpd'].'</option>';
+                                        }
+                                    }
+                                ?>
+                            </select>
+                            <span class="help-block">Khusus Akun PPK</span>
+                        </div>
+                    </div>
+
+                <?php
+                    }
+                ?>
 
                 <div class="form-group">
                     <label class="control-label col-md-3">Surat Tugas</label>

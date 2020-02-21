@@ -1,0 +1,12 @@
+{
+    "name": "root/coba",
+    "authors": [
+        {
+            "name": "Adi Sparta",
+            "email": "adisparta11@gmail.com"
+        }
+    ],
+    "require": {
+        "pusher/pusher-php-server": "^3.0"
+    }
+}

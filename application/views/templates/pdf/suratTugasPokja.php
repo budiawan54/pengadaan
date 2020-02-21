@@ -6,7 +6,7 @@
 <br>
 
 <p style="text-align: justify;">
-	<?php echo space(10) ?>Sehubungan dengan proses pemilihan penyediaan paket pekerjaan <?php echo $pengajuan['Nama_Kegiatan'] ?>, pagu anggaran Rp.<?php echo $pengajuan['Pagu_Anggaran'] ?> dari Dinas Pertanian, maka untuk kelancaran dan optomalisasi proses tahapan-tahapan pemilihan penyedia, ditugaskan kepada POKJA. Untuk dapat melakukan hal-hal sebagai berikut :
+	<?php echo space(10) ?>Sehubungan dengan proses pemilihan penyediaan paket pekerjaan <?php echo $pengajuan['Nama_Kegiatan'] ?>, pagu anggaran Rp.<?php echo $pengajuan['Pagu_Anggaran'] ?> <!--dari Dinas Pertanian-->, maka untuk kelancaran dan optimalisasi proses tahapan-tahapan pemilihan penyedia, ditugaskan kepada POKJA. Untuk dapat melakukan hal-hal sebagai berikut :
 </p>
 
 <br>
@@ -16,7 +16,7 @@
 	<li>Komunikasi dan Koordinasi Pengadaan</li>
 	<li>Pengelolaan Data dan Informasi Pengadaan</li>
 	<li>Pengalolaan / Penataan Dokumen Pengadaan</li>
-	<li>Evaluasi Kinerja Pngadaan</li>
+	<li>Evaluasi Kinerja Pengadaan</li>
 	<li>Ekspose hasil pemilihan penyedia</li>
 </ol>
 
@@ -37,10 +37,10 @@
 		</td>
 		<td>
 			Singaraja, <?php echo getDates(date('Y-m-d')) ?><br>
-			
-			
+
+
 					Kepala Bagian Layanan Pengadaan<br>
-					Kabupaten Buleleng
+					Provinsi Bali
 					<br>
 					<br>
 					<br>
@@ -50,7 +50,7 @@
 						</strong><br>
 						NIP.<?php echo $kabag_peng['NIP_User'] ?>
 					<!-- </h3> -->
-					
+
 
 		</td>
 	</tr>

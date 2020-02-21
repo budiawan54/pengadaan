@@ -12,12 +12,10 @@
                 <span class="text">Daftar Pengajuan</span>
             </a>
         </li>
-        <li class="">
+        <!-- <li class="">
             <a data-toggle="tooltip" title="Daftar Pengajuan" href="<?php echo base_url('fo/pengajuan/cetak/') ?>">
                 <span class="text">Cetak Pengajuan</span>
             </a>
-        </li>
+        </li> -->
     </ul>
 </li>
-
-

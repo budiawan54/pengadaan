@@ -1,7 +1,7 @@
 
 <div class="page-header page-header-block">
     <div class="page-header-section">
-        <h4 class="title semibold">Log Activiry</h4>
+        <h4 class="title semibold">Log Activity</h4>
     </div>
 </div>
 
@@ -10,7 +10,7 @@
     
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">Log Activiry</h3>
+                <h3 class="panel-title">Log Activity</h3>
             </div>
             <div class="panel-body">
                 

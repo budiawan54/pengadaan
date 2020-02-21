@@ -33,7 +33,7 @@ Mohon ditindaklanjuti
 			
 			<div class="panel-body">
 				<a href="javascript:void(0)" onclick="gantiProgress('terima_ksb_ren')"  class="btn btn-success">Pengajuan Lengkap</a>
-				<a href="javascript:void(0)" onclick="gantiProgress('tolak_ksb_ren')" class="btn btn-danger">Pengajuan Kurang Lengkap</a>
+				<a href="javascript:void(0)" onclick="submitForm('tolak_fo')" class="btn btn-danger">Pengajuan Kurang Lengkap</a>
 			</div>
 
 	<!-- </div> -->
@@ -58,13 +58,19 @@ Mohon ditindaklanjuti
 	      </div>
 	      <div class="modal-body">
 
-				<form action="<?php echo base_url('ksb_ren/pengajuan/verifikasi') ?>" method="POST">
+				<form action="<?php echo base_url('fo/pengajuan/verifikasi') ?>" method="POST">
 					<input type="hidden" name="Id_Pengajuan_Pengadaan" value="<?php echo $pengajuan['Id_Pengajuan_Pengadaan'] ?>">
 					
 					<p>Silahkan masukan password anda untuk verifikasi</p>
 					<div class="form-group">
 						<input type="password" class="form-control" name="password">
 					</div>
+
+
+		<textarea class="summernote" name="Catatan">
+Mohon ditindaklanjuti
+		</textarea>
+
 					<input type="submit" class="btn btn-info" value="Verifikasi">
 				</form>	
 		</div>
@@ -84,7 +90,7 @@ Mohon ditindaklanjuti
 		$('input[name=Progress]').val(progress);
 
 
-		if (progress == 'tolak_ksb_ren'){
+		if (progress == 'tolak_fo'){
 			confBootBox('Apakah anda yakin akan menolak permohonan pengajuan ini?', function(resul){
 				if (resul == true){
 					var dialog = bootbox.dialog({
@@ -100,6 +106,21 @@ Mohon ditindaklanjuti
 
 		}
 
+	}
+
+	function submitForm(progress){
+		$('input[name=Progress]').val(progress);
+
+		confBootBox('Apakah anda yakin akan melakukan aksi ini?', function(resul){
+			if (resul == true){
+				var dialog = bootbox.dialog({
+				    message: '<p class="text-center">Sedang mengirim data...</p>',
+				    closeButton: false
+				});
+				$('#form-catatan-fo').trigger('submit');
+				
+			}
+		});
 	}
 
 

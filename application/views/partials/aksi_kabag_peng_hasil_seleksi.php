@@ -4,35 +4,43 @@
 	</div>
 
 	<!-- <div class="panel-body"> -->
-		<form action="<?php echo base_url('kabag/pengajuan/hasil_seleksi') ?>" method="POST" enctype="multipart/form-data" id="submitPokja">
+		<form action="<?php echo base_url('ksb_pel/pengajuan/hasil_seleksi') ?>" method="POST" enctype="multipart/form-data" id="submitPokja">
 			<input type="hidden" name="Id_Pengajuan_Pengadaan" value="<?php echo $pengajuan['Id_Pengajuan_Pengadaan'] ?>">
+
+			<div class="panel-body">
+				<div class="form-group">
+					<label class="control-label">POKJA YG DIPILIH KABAG</label>
+					<?php 
+					foreach ($pokja as $key=>$value){
+							echo '
+							<div class="form-group">
+                  				<div class="checkbox">
+                    				<label>
+                      					<input type="checkbox" value="'.$value['User_Id'].'" name="Id_Pokja[]" checked disabled> '.$value['Nama_Lengkap'].'
+                    				</label>
+                  				</div> 
+                  			</div>
+							';
+					}
+					?>
+
+
+				</div>
+			</div>
+			
 
 			<div class="panel-body">
 				
 				<div class="row">
 					<div class="col-md-4">
 						<div class="form-group">
-							<label class="control-label">Nomor Surat Pokja</label>
-	                        <input type="text" class="form-control " name="Surat_Tugas_Pokja" required="">
+							<label class="control-label">SK POKJA</label>
+	                        <input type="file" class="form-control " name="fileUpload" required="">
 						</div>
 					</div>
 				</div>
+ 
 
-				<div class="form-group">
-					<label class="control-label">Pilih POKJA</label>
-					<select name="Id_Pokja" class="form-control">
-						<?php
-							foreach ($pokja as $key => $value) {
-								if ($value['Id_User'] == $pengajuan['Id_Pokja']){
-									echo '<option value="'.$value['Id_User'].'" selected="">'.$value['Nama_Lengkap'].' ('.$value['jml_tangani'].')</option>';
-								}
-								else{
-									echo '<option value="'.$value['Id_User'].'">'.$value['Nama_Lengkap'].' ('.$value['jml_tangani'].')</option>';
-								}
-							}
-						?>
-					</select>
-				</div>
 				<div class="form-group">
 					<div class="row">
 						<div class="col-sm-4">

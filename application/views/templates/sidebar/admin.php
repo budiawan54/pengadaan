@@ -21,6 +21,13 @@
 </li>
 
 <li class="manajemen">
+    <a href="<?php echo base_url('admin/pengajuan/daftar_realisasi'); ?>">
+        <span class="figure"><i class="ico-file6"></i></span>
+        <span class="text">Daftar Realisasi</span>
+    </a>
+</li>
+
+<li class="manajemen">
     <a href="<?php echo base_url('admin/manajemen/pengguna'); ?>">
         <span class="figure"><i class="ico-users"></i></span>
         <span class="text">Manajemen Pengguna</span>
@@ -33,4 +40,3 @@
         <span class="text">Master OPD</span>
     </a>
 </li>
-

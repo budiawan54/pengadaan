@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Bagian Layanan Pengadaan Kabupaten Buleleng</title>
+    <title>SiAP (Sistem Informasi dan Aplikasi Pengadaan)</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
     <!-- Favicons-->
@@ -32,19 +32,46 @@
             
             <div class="row countdown">
                 <div class="col-md-12">
-                    <div id="logo"><img src="<?php echo base_url('/resources/image/logo_header.png') ?>" width="250"></div>
+                    <div id="logo"><img src="<?php echo base_url('/resources/image/logo_heder.png') ?>" width="250"></div>
                     <h1>Bagian Layanan Pengadaan</h1>
-                    <h2>Kabupaten Singaraja, Bali</h2>
+                    <h2>Provinsi Bali</h2>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6 col-md-offset-3">
-                    <div id="newsletter_wp" >
-                        <div class="row">
-                            <div class="col-md-12">
-                                <a href="<?php echo base_url('login') ?>" class="btn-check btn-lg" style="width: 100%;">Login Ke Sistem</a>
-                            </div>
-                        </div>                              
+                    <div id="" >
+                        
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        <div style="text-align: center;">
+                                            <p style="color : #000;">Silahkan login untuk melanjutkan</p>    
+                                        </div>
+                                        
+                                        <form method="POST" action="<?php echo base_url('login') ?>" >
+                                    <div class="form-group">
+                                      <input type="text" required="" name="Username" class="form-control" placeholder="Username">
+                                    </div>
+                                    <div class="form-group">
+                                      <input type="password" required="" name="Password" class="form-control" placeholder="Password">
+                                    </div>
+                                    <?php
+                                       if($this->session->flashdata('pesan') != null) {
+                                    ?>
+                                    <div class="alert alert-danger">
+                                      Maaf, kombinasi username dan password tidak sesuai
+                                    </div>
+                                    <?php
+                                      }
+                                    ?>
+                                    <div class="form-group">
+                                      <button type="submit" class="btn btn-info btn-block"><i class="fa fa-login"></i> Login</button>
+                                    </div>
+                                </form>
+                                    </div>
+                                </div>
+                                
+                                <!--<a href="<?php echo base_url('login') ?>" class="btn-check btn-lg" style="width: 100%;">Login Ke Sistem</a>-->
+                                                       
                     </div><!-- End newsletter_wp -->    
                 </div><!-- End row -->          
             </div><!-- End container -->
@@ -61,7 +88,7 @@
                     <li><a href="#"><i class="icon-youtube-play"></i></a></li>
                     <li><a href="#"><i class="icon-linkedin"></i></a></li>
                 </ul>
-                <p>© Bagian Layanan Pengadaan Buleleng 2017</p>
+                <p>Bagian Layanan Provinsi Bali &copy; 2019</p>
             </div>
 
             

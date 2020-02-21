@@ -1,162 +1,254 @@
-<?php 
-  $userLogin = $this->user_m->getDetailLoginUser();
-?>
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>Buku Tamu</title>
-
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-
-        
-        <!-- Load Core CSS 
-        =====================================-->
-        <link rel="stylesheet" href="<?php echo base_url('resources/back') ?>/assets/css/core/bootstrap.min.css">
-        <link rel="stylesheet" href="<?php echo base_url('resources/back') ?>/assets/css/core/animate.min.css">
-        
-        <!-- Load Main CSS 
-        =====================================-->
-        <link rel="stylesheet" href="<?php echo base_url('resources/back') ?>/assets/css/main/main.css">
-        <link rel="stylesheet" href="<?php echo base_url('resources/back') ?>/assets/css/main/setting.css">
-        <link rel="stylesheet" href="<?php echo base_url('resources/back') ?>/assets/css/main/hover.css">
-        
-        <!-- Load Magnific Popup CSS 
-        =====================================-->
-        <link rel="stylesheet" href="<?php echo base_url('resources/back') ?>/assets/css/magnific/magic.min.css">        
-        <link rel="stylesheet" href="<?php echo base_url('resources/back') ?>/assets/css/magnific/magnific-popup.css">              
-        <link rel="stylesheet" href="<?php echo base_url('resources/back') ?>/assets/css/magnific/magnific-popup-zoom-gallery.css">
-        
-        <!-- Load OWL Carousel CSS 
-        =====================================-->
-        <link rel="stylesheet" href="<?php echo base_url('resources/back') ?>/assets/css/owl-carousel/owl.carousel.css">
-        <link rel="stylesheet" href="<?php echo base_url('resources/back') ?>/assets/css/owl-carousel/owl.theme.css">
-        <link rel="stylesheet" href="<?php echo base_url('resources/back') ?>/assets/css/owl-carousel/owl.transitions.css">
-        
-        <!-- Load Color CSS - Please uncomment to apply the color.
-        =====================================      
-        <link rel="stylesheet" href="assets/css/color/brown.css">
-        <link rel="stylesheet" href="assets/css/color/cyan.css">
-        <link rel="stylesheet" href="assets/css/color/dark.css">
-        <link rel="stylesheet" href="assets/css/color/green.css">
-        <link rel="stylesheet" href="assets/css/color/orange.css">
-        <link rel="stylesheet" href="assets/css/color/purple.css">
-        <link rel="stylesheet" href="assets/css/color/pink.css">
-        <link rel="stylesheet" href="assets/css/color/yellow.css">-->
-        <link rel="stylesheet" href="<?php echo base_url('resources/back') ?>/assets/css/color/pasific.css">
-        <!-- <link rel="stylesheet" href="assets/css/color/blue.css"> -->
-        <!-- <link rel="stylesheet" href="assets/css/color/red.css"> -->
-        <link rel="stylesheet" href="<?php echo base_url('resources/back') ?>/assets/css/icon/font-awesome.css">
-        <link rel="stylesheet" href="<?php echo base_url('resources/back') ?>/assets/css/icon/et-line-font.css">
-         <script src="<?php echo base_url('resources/back') ?>/assets/js/core/jquery.min.js"></script>
-        
+<html class="backend">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SiAP (Sistem Informasi dan Aplikasi Pengadaan)</title>
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url('/resources/plugin/datatable/datatables.min.css') ?>">
-        <script type="text/javascript" src="<?php echo base_url('/resources/plugin/datatable/datatables.min.js') ?>"></script>
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url('/resources/plugin/bootstrap-datepicker-master/dist/css/bootstrap-datepicker.min.css') ?>">
-        <script type="text/javascript" src="<?php echo base_url('/resources/plugin/bootstrap-datepicker-master/dist/js/bootstrap-datepicker.min.js') ?>"></script>
-        <!-- Load JS
-        HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
-        WARNING: Respond.js doesn't work if you view the page via file://
-        =====================================-->
+    <link rel="stylesheet" href="<?php echo base_url('/') ?>/resources/assets/backend/css/main.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url('/') ?>/resources/plugins/jQuery.filer-1.3.0/css/jquery.filer.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url('/') ?>/resources/javascript/pace.css">
 
-        <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url('/resources/plugin/CodeSeven-toastr-3f54c48/build/toastr.min.css') ?>">
+    <script type="text/javascript" src="<?php echo base_url('/') ?>/resources/plugins/modernizr/js/modernizr.js"></script>
+    <script type="text/javascript" src="<?php echo base_url('/') ?>/resources/assets/backend/js/main.js"></script>
+    <script type="text/javascript" src="<?php echo base_url('/') ?>/resources/plugins/jQuery.filer-1.3.0/js/jquery.filer.min.js"></script>
+    <script type="text/javascript" src="<?php echo base_url('/') ?>/resources/javascript/pace.min.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url('/resources/plugins/toastr-master/build/toastr.min.css') ?>">
+    <script type="text/javascript" src="<?php echo base_url('/resources/plugins/toastr-master/build/toastr.min.js') ?>"></script>
+
+
+    <style type="text/css">
+
+        .bg{
+            height: 20px;
+            background-image: url(<?php echo base_url('resources/image/bg.jpg') ?>);
+            background-size: cover;
+            background-position: center center;
+            width: 100%;
+            position: relative;
+        }
+
+        .bg::before{
+          background-color: rgba(0, 0, 0, 0.37);
+          content: '';
+          display: block;
+          height: 100%;
+          position: absolute;
+          width: 100%;
+        }
+    </style>
+    <style type="text/css">
+      .custom_header{
+        background: #FF2727;
+        height: 80px;
+        padding : 8px;
+
+      }
+      .custom_header img{
+        height: 100%;
+      }
+
+      @media(max-width: 411px){
+        .custom_header{
+          text-align: center;
+          padding : 10px;
+        }
+      }
+
+    </style>
     </head>
 
-    <body id="page-top" data-spy="scroll" data-target=".navbar" data-offset="100">
-            
-        <a href="#page-top" class="go-to-top">
-            <i class="fa fa-long-arrow-up"></i>
-        </a>
-        
-        <nav class="navbar navbar-pasific navbar-mp navbar-standart  navbar-fixed-top">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand font-montserrat " href="<?php echo base_url('/home') ?>">
-                        BLP Buleleng
-                    </a>
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
+    <body>
+
+        <section class="custom_header">
+            <img src="<?php echo base_url('resources/image/header.png') ?>">
+        </section>
+
+        <section id="main" role="main">
+            <section class="container">
+          <div class="container-fluid">
+          <div class="page-header page-header-block" style="margin-left: -30px; margin-right: -30px;">
+            <div class="page-header-section">
+              <h4 class="title semibold">SiAP (Sistem Aplikasi Pengadaan) Bagian Pengadaan Barang/Jasa Setda - Kabupaten Buleleng </h4>
+
             </div>
-        </nav>
+          </div>
+        </div>
+                <div class="row" >
+                     <div class="col-md-12" style="padding-top: 20px; text-align: center;  ">
 
-
-
-    
-    <section  class="bg-gray  pt70 pb75" style="padding-top: 150px; padding-bottom: 150px;">
-        <div class="container">
-            <div class="row" >
-                                                 
-                    <div  class="col-sm-4 col-sm-offset-4">
-                        <div class="content-box content-box-center">                        
-                            <span class="icon-profile-male color-info"></span>
-                                <h4>Login Akun</h4>
-                              <p>Masukan username dan password anda untuk melanjutkan.</p>
+                        <div class="panel" >
+                            <div class="panel-body" >
+                                <div class="" id="sop" style="overflow-y: auto;">
+                <a href="<?=base_url()?>/resources/image/flowchart.jpg" target="_blank">
+                <img height="auto" src="<?=base_url()?>/resources/image/flowchart.jpg" width="100%" >
+                <a>
+                </div>
+                            </div>
                         </div>
 
+                    </div>
 
-                        <form method="POST" action="<?php echo base_url('login') ?>" >
-                            <div class="form-group">
-                              <input type="text" required="" name="Username" class="form-control" placeholder="Username">
+                    <div class="col-md-8" style="padding-top: 20px; padding-bottom:50px;">
+
+                        <div class="panel" >
+                            <div class="panel-body" >
+                                <div class="" id="container"></div>
                             </div>
-                            <div class="form-group">
-                              <input type="password" required="" name="Password" class="form-control" placeholder="Password">
-                            </div>
-                            <?php
-                               if($this->session->flashdata('pesan') != null) {
-                            ?>
-                            <div class="alert alert-danger">
-                              Maaf, kombinasi username dan password tidak sesuai
-                            </div>
-                            <?php
-                              }
-                            ?>
-                            <div class="form-group">
-                              <button type="submit" class="btn btn-info btn-block"><i class="fa fa-login"></i> Login</button>
-                            </div>
-                        </form>
+                        </div>
 
                     </div>
-            </div>
-        </div>
-    </section>
+                    <div class="col-md-4" style="padding-top: 20px; padding-bottom: 50px;">
+                        <div class="panel panel-default">
+                            <!-- panel heading/header -->
+                            <div class="panel-heading">
+                                <h5 class="heading semibold">Silahkan Login</h5>
+                            </div>
+                            <!--/ panel heading/header -->
+                            <!-- panel body -->
+                            <div class="panel-body">
+                                <div class="tab-content">
+                                    <div class="tab-pane fade in active" id="login" >
+                                        <form  method="POST" name="form-login" action="<?php echo base_url('/login') ?>">
+                                            <div class="alert alert-success fade in">
+                                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">x</button>
+                                                <p class="mb10">Silahkan memasukan akun anda untuk melanjutkan ke halaman utama.</p>
+                                            </div>
 
-                
-                <div class="container-fluid bg-dark4 pt20">
-                   <div class="container">
-                       <div class="row">
+                                            <div class="form-group">
+                                                <div class="has-icon pull-left">
+                                                    <input name="Username" value="" type="text" id="username" class="form-control" placeholder="Username">
+                                                    <i class="ico-user2 form-control-icon"></i>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="has-icon pull-left">
+                                                    <input name="Password" value="" type="password" class="form-control" placeholder="Password">
+                                                    <i class="ico-lock2 form-control-icon"></i>
+                                                </div>
+                                            </div>
+                                            <div class="form-group nm">
+                                                <button type="submit" style="margin-bottom: 15px;" class="btn btn-primary"><span class="semibold">Login</span></button>
+                                                <!-- <button type="button" style="margin-top: -15px;" class="btn btn-success" data-toggle="modal" data-target="#myModal">register</button> -->
 
-                           <!-- copyright start -->
-                           <div class="col-md-6 col-sm-8 pull-left mb20" style="color: #FFF;">
-                               © 2017 Bagian Layanan Pengadaan Kabupaten Buleleng
-                               <br>
-                           </div>
-                           <!-- copyright end -->
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-
-                       </div><!-- row end -->
-                   </div><!-- container end -->
+            </section>
+        </section>
+        <footer id="footer">
+           <!-- START container-fluid -->
+           <div class="container-fluid">
+               <div class="row">
+                   <div class="col-sm-6">
+                       <!-- copyright -->
+                       <p class="nm text-muted">Bagian Pengadaan Barang/Jasa Setda Kabupaten Buleleng &copy; <span class="semibold">2019</span></p>
+                       <!--/ copyright -->
+                   </div>
                </div>
+           </div>
 
-        <!-- JQuery Core
-           =====================================-->
-           <script src="<?php echo base_url('resources/back') ?>/assets/js/core/bootstrap.min.js"></script>
-           
-           <script src="<?php echo base_url('resources/back') ?>/assets/js/main/jquery.sticky.js"></script>
-           <script src="<?php echo base_url('resources/back') ?>/assets/js/main/main.js"></script>
 
+           <!--/ END container-fluid -->
+        </footer>
 
     </body>
 </html>
+<!--
 
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Register Akun PPK OPD</h4>
+      </div>
+          <form action="/home/registerAkun" method="POST">
+      <div class="modal-body">
+
+
+              <div class="form-group">
+                  <label class="control-label">Username</label>
+                  <input type="text" name="Username" class="form-control">
+              </div>
+
+              <div class="form-group">
+                  <label class="control-label">Password</label>
+                  <input type="text" name="Password" class="form-control">
+              </div>
+
+
+              <div class="form-group">
+                  <label class="control-label">OPD</label>
+                  <select name="Master_Skpd_Id" class="form-control">
+                    <option></option>
+                    <?php
+                      foreach ($skpd as $key => $value) {
+                        echo '<option value="'.$value['Master_Skpd_Id'].'">'.$value['Nama_Skpd'].'</option>';
+                      }
+                    ?>
+                  </select>
+              </div>
+
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
+        <input type="submit" class="btn btn-primary" value="Register">
+      </div>
+          </form>
+    </div>
+
+  </div>
+</div>
+ -->
+
+
+<?php
+    $this->load->view('partials/notif');
+?>
+
+<script src="http://code.highcharts.com/highcharts.js"></script>
+<script type="text/javascript">
+    $(function(){
+
+        var chart = Highcharts.chart('container', {
+
+            chart: {
+        height: 280
+      },
+      title: {
+                text: 'Grafik Pengajuan per Bulan'
+            },
+
+
+            xAxis: {
+                categories: <?php echo json_encode($categories) ?>
+            },
+
+            series: [{
+                type: 'column',
+                colorByPoint: true,
+                data: <?php echo json_encode($data) ?>,
+                showInLegend: false
+            }]
+
+        });
+
+
+    })
+</script>

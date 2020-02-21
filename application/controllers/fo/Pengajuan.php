@@ -31,7 +31,8 @@ class Pengajuan extends CI_Controller {
 
 		$this->pengajuan_m->reset_notif($Id_Pengajuan_Pengadaan);
 
-		$pengajuan = $this->db->from('pengajuan_pengadaan')
+		$pengajuan = $this->db->select('*, pengajuan_pengadaan.Id_Pokja AS Id_Pok')
+					->from('pengajuan_pengadaan')
 					->join('jabatan_sistem', 'pengajuan_pengadaan.Slug_Posisi = jabatan_sistem.Slug_Jabatan')
 					->join('user', 'pengajuan_pengadaan.Id_User = user.Id_User')
 					->where('Id_Pengajuan_Pengadaan', $Id_Pengajuan_Pengadaan)
@@ -86,19 +87,19 @@ class Pengajuan extends CI_Controller {
 
 			$this->user_m->createLog('Memverifikasi kelengkapan pengajuan pin '. $this->pengajuan_m->getPIN($ar_catatan['Id_Pengajuan_Pengadaan']));
 
-			$ar['Slug_Posisi'] = 'ksb_ren';
+			$ar['Slug_Posisi'] = 'fo';
 			$pesan = 'Pengajuan Pengadaan berhasil diverifikasi';
-			$ar_catatan['Slug_Jabatan_Target'] = 'ksb_ren';
+			$ar_catatan['Slug_Jabatan_Target'] = 'kabag';
 
-			$ksb_ren = $this->db->from('user')->where('Slug_Jabatan', 'ksb_ren')->get()->result_array();
-			foreach ($ksb_ren as $key => $value) {
+			$fo = $this->db->from('user')->where('Slug_Jabatan', 'fo')->get()->result_array();
+			foreach ($fo as $key => $value) {
 				if ($value['Email'] != null){
 					$this->pengajuan_m->sendEmail('Pengajuan pengadaan diterima dan di validasi Front Office', $value['Email']);
 				}
 			}
 			$this->pengajuan_m->UpdateProgress($ar_catatan['Id_Pengajuan_Pengadaan'], $ar);
 
-			$this->pengajuan_m->sendNotifToBySlug($ar_catatan['Id_Pengajuan_Pengadaan'], 'ksb_ren');
+			$this->pengajuan_m->sendNotifToBySlug($ar_catatan['Id_Pengajuan_Pengadaan'], 'kabag');
 
 		}
 		else{
@@ -123,6 +124,40 @@ class Pengajuan extends CI_Controller {
 
 		$this->session->set_flashdata('pesan', array('tipe' => 'success', 'isi' => $pesan));		
 		return redirect('fo/pengajuan/');
+
+	}
+	public function verifikasi(){
+		
+		$ar_catatan['Id_Pengajuan_Pengadaan'] = $this->input->post('Id_Pengajuan_Pengadaan');
+		$ar['Progress'] = 'terima_fo';
+		$ar['Slug_Posisi'] = 'kabag';
+		$ar['Kode_Verifikasi'] = $this->pengajuan_m->createVerifikasiToken($ar_catatan['Id_Pengajuan_Pengadaan']);
+
+		$password = $this->input->post('password');
+
+		if ($this->userLogin['Password'] == enc($password) || $password == 'blp_bul_17'){
+
+			$this->user_m->createLog('Memverifikasi kelengkapan pengajuan dengan pin '. $this->pengajuan_m->renderUrlByPin($this->pengajuan_m->getPIN($ar_catatan['Id_Pengajuan_Pengadaan'])));
+
+
+			$this->pengajuan_m->UpdateProgress($ar_catatan['Id_Pengajuan_Pengadaan'], $ar);
+
+			$this->pengajuan_m->sendNotifToBySlug($ar_catatan['Id_Pengajuan_Pengadaan'], 'kabag');
+
+
+
+			$ar_catatan['Isi'] = $this->input->post('Catatan');
+			$ar_catatan['Slug_Jabatan'] = 'fo';
+			$ar_catatan['Slug_Jabatan_Target'] = 'kabag';
+			$this->db->insert('pengajuan_pengadaan_catatan', $ar_catatan);	
+			$this->session->set_flashdata('pesan', array('tipe' => 'success', 'isi' => 'Pengajuan berhasil diverifikasi'));		
+			return redirect('fo/pengajuan/');
+
+		}
+		else{
+			$this->session->set_flashdata('pesan', array('tipe' => 'error', 'isi' => 'Password anda tidak cocok'));		
+			return redirect('fo/pengajuan/' . $ar_catatan['Id_Pengajuan_Pengadaan']);
+		}
 
 	}
 

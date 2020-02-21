@@ -66,7 +66,7 @@ html.frontend body {
   margin-left: -15px;
 }
 #header.navbar .navbar-header {
-  background-color: #196BB8;
+  background-color: #1fff;
   height: 50px;
   float: none;
 }
@@ -139,7 +139,7 @@ html.frontend body {
 }
 #header.navbar .navbar-toolbar .navbar-nav > li > a:active,
 #header.navbar .navbar-toolbar .navbar-nav > li > a.active {
-  background-color: #f6f6f6;
+  background-color: #336666;
   color: #848484;
 }
 #header.navbar .navbar-toolbar .navbar-nav > li > a > .meta {
@@ -568,7 +568,7 @@ html.frontend body {
   bottom: 0px;
   width: 240px;
   color: #777777;
-  background-color: #2a2a2a;
+  background-color: #141414;
   -webkit-transition: -webkit-transform 0.2s ease;
        -o-transition: -o-transform 0.2s ease;
           transition: transform 0.2s ease;

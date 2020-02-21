@@ -10,7 +10,8 @@
             box-shadow: none;
   }
   #header.navbar .navbar-toolbar {
-    background-color: #196BB8;
+    /* background-color: #196BB8;*/
+	background-color: #FF2727;
   }
 
   #header.navbar .navbar-toolbar .navbar-nav > .navbar-main > a,

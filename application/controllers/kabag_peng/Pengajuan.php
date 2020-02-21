@@ -16,7 +16,7 @@ class Pengajuan extends CI_Controller {
 		$this->userLogin = $this->user_m->getDetailLoginUser();
 		
 	}
-
+ 
 	
 	public function daftarPengajuan(){
 		$a['url_datatable'] = base_url('ajax/ambilpengajuan/kabag_peng');
@@ -30,7 +30,8 @@ class Pengajuan extends CI_Controller {
 	public function detail($Id_Pengajuan_Pengadaan){
 		$this->pengajuan_m->reset_notif($Id_Pengajuan_Pengadaan);
 
-		$pengajuan = $this->db->from('pengajuan_pengadaan')
+		$pengajuan = $this->db->select('*, pengajuan_pengadaan.Id_Pokja AS Id_Pok')
+					->from('pengajuan_pengadaan')
 					->join('jabatan_sistem', 'pengajuan_pengadaan.Slug_Posisi = jabatan_sistem.Slug_Jabatan')
 					->join('user', 'pengajuan_pengadaan.Id_User = user.Id_User')
 					->where('Id_Pengajuan_Pengadaan', $Id_Pengajuan_Pengadaan)
@@ -99,48 +100,11 @@ class Pengajuan extends CI_Controller {
 
 	// }
 
-	public function hasil_seleksi(){
-
-		$pas = $this->input->post('Password');
-
-		if ($this->userLogin['Password'] == enc($pas)){
-
-			$ar_catatan['Id_Pengajuan_Pengadaan'] = $this->input->post('Id_Pengajuan_Pengadaan');
-			$ar_catatan['Isi'] = $this->input->post('Catatan');
-			$ar_catatan['Slug_Jabatan'] = 'kabag_peng';
-			$ar_catatan['Slug_Jabatan_Target'] = 'pokja';
 
 
+	
 
 
-			$ar['Progress'] = $this->input->post('Progress');
-			$ar['Slug_Posisi'] = 'pokja';
-			$ar['Id_Pokja'] = $this->input->post('Id_Pokja');
-			$ar['Surat_Tugas_Pokja'] = $this->input->post('Surat_Tugas_Pokja');
-			// $ar['Surat_Tugas_Pokja'] = $this->_uploadSuratPengembalian();
-
-			$pesan = 'Pengajuan berhasil di setujui dan dikirim ke POKJA';
-
-			$this->user_m->createLog('Menyetujui pengajuan dan mengirim ke pokja dengan pin '. $this->pengajuan_m->getPIN($this->input->post('Id_Pengajuan_Pengadaan')));
-
-			$this->pengajuan_m->UpdateProgress($ar_catatan['Id_Pengajuan_Pengadaan'], $ar);
-
-			$this->pengajuan_m->sendNotifToBySlug($ar_catatan['Id_Pengajuan_Pengadaan'], 'pokja');
-			$this->pengajuan_m->sendNotifToBySlug($ar_catatan['Id_Pengajuan_Pengadaan'], 'anggota_pokja');
-
-
-			$this->db->insert('pengajuan_pengadaan_catatan', $ar_catatan);
-
-			$this->session->set_flashdata('pesan', array('tipe' => 'success', 'isi' => $pesan));		
-			return redirect('kabag_peng/pengajuan/');
-		}
-
-		else{
-			$this->session->set_flashdata('pesan', array('tipe' => 'error', 'isi' => 'Password tidak cocok'));		
-			return redirect('kabag_peng/pengajuan/' . $this->input->post('Id_Pengajuan_Pengadaan'));
-		}
-
-	}
 
 
 }

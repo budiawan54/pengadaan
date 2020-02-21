@@ -6,6 +6,7 @@
 
 <br>
 <br>
+
 <style type="text/css">
 	table tr td{
 		vertical-align: top;
@@ -42,14 +43,14 @@
 		<td style="width: 5px;">5.</td>
 		<td>PAGU ANGGARAN</td>
 		<td>:</td>
-		<td colspan="2"><?php echo $pengajuan['Pagu_Anggaran'] ?></td>
+		<td colspan="2"><?php echo rupiahFormat($pengajuan['Pagu_Anggaran']) ?></td>
 	</tr>
-	
+
 	<tr>
 		<td style="width: 5px;">6.</td>
 		<td>HPS</td>
 		<td>:</td>
-		<td colspan="2"><?php echo $pengajuan['HPS'] ?></td>
+		<td colspan="2"><?php echo rupiahFormat($pengajuan['HPS']) ?></td>
 	</tr>
 
 	<tr>
@@ -78,7 +79,7 @@
 		<td>:</td>
 		<td colspan="2"><?php echo $pengajuan['Jabatan_User'] ?></td>
 	</tr>
-	
+
 	<tr>
 		<td style="width: 5px;">10.</td>
 		<td>NAMA PPTK</td>
@@ -94,19 +95,19 @@
 	</tr>
 
 	<?php
-		
+
 
 		foreach ($kelengkapan as $key => $value) {
 			$i = 11 + $key;
 
 			?>
-				
+
 				<tr>
 					<td><?php echo $i.'.'; ?></td>
 					<td><?php echo $value['Deskripsi'] ?></td>
 					<td>:</td>
 					<td>
-						<?php  
+						<?php
 							if (isset($value['isian']) && $value['isian']['Nama_File'] != null){
 								echo 'Ada';
 							}
@@ -116,7 +117,7 @@
 						?>
 					</td>
 				</tr>
-				
+
 			<?php
 		}
 
@@ -124,13 +125,6 @@
 </table>
 
 <br>
-<span style="text-decoration: underline;">CATATAN</span>
-<br>
-
-<hr class="dotted">
-<hr class="dotted">
-<hr class="dotted">
-<hr class="dotted">
 
 
 <table style="text-align: center;">
@@ -145,7 +139,7 @@
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			
+
 		</td>
 		<td>PPTK</td>
 	</tr>
@@ -159,7 +153,11 @@
 	<tr>
 		<td>
 			<span style="font-weight: bold; text-decoration: underline;"><?php echo '('. $pengajuan['Nama_Lengkap'] .')' ?></span><br>
-			<p style="margin-top: 5px;">Kode Verifikasi : <?php echo $pengajuan['Kode_Verifikasi'] ?></p>
+			<!-- <p style="margin-top: 5px;">Kode Verifikasi : <?php echo $pengajuan['Kode_Verifikasi'] ?></p> -->
+			<p>
+
+				<!-- <img src="<?php //echo $base64 ?>" style="width: 120px;"> -->
+			</p>
 		</td>
 		<td></td>
 		<td>
@@ -168,7 +166,7 @@
 	</tr>
 </table>
 
-	
+
 <br>
 <br>
 <br>

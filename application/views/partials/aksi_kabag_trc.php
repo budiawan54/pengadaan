@@ -14,9 +14,11 @@
 			</textarea>
 
 			<div class="panel-body">
-				<a data-val="kabag_acc_trc" id="btn_terima_fo" href="javascript:void(0)" onclick="submitForm('kabag_acc_trc')"  class="btn btn-success">Setujui TRC</a>
+				<center><a data-val="kabag_acc_trc" id="btn_terima_fo" href="javascript:void(0)" onclick="submitForm('kabag_acc_trc')"  class="btn btn-success">Setujui TRC</a></center>
+				
+				<!--
 				<a data-val="kabag_tolak_trc"  href="javascript:void(0)" onclick="submitForm('kabag_tolak_trc')" class="btn btn-danger">Tolak</a>
-			</div>
+			</div>-->
 		<!-- </div> -->
 
 	</div>

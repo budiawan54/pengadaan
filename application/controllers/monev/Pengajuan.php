@@ -30,7 +30,8 @@ class Pengajuan extends CI_Controller {
 	public function detail($Id_Pengajuan_Pengadaan){
 		$this->pengajuan_m->reset_notif($Id_Pengajuan_Pengadaan);
 
-		$pengajuan = $this->db->from('pengajuan_pengadaan')
+		$pengajuan = $this->db->select('*, pengajuan_pengadaan.Id_Pokja AS Id_Pok')
+					->from('pengajuan_pengadaan')
 					->join('jabatan_sistem', 'pengajuan_pengadaan.Slug_Posisi = jabatan_sistem.Slug_Jabatan')
 					->join('user', 'pengajuan_pengadaan.Id_User = user.Id_User')
 					->where('pengajuan_pengadaan.Deleted_At', null)
@@ -75,8 +76,13 @@ class Pengajuan extends CI_Controller {
 		$ar['Progress'] = 'validasi_kabag';
 		$ar['Slug_Posisi'] = 'kabag';
 		$ar['Jumlah_Sanggahan_Monev'] = $this->input->post("Jumlah_Sanggahan_Monev");
-		$ar['File_Pendukung_Monev'] = $this->_uploadFile('./storage/file_pendukung_monev/');
-
+		if ($this->input->post('Jumlah_Sanggahan_Monev') > 0){
+			$ar['File_Pendukung_Monev'] = $this->_uploadFile('./storage/file_pendukung_monev/');
+		}
+		else{
+			$ar['File_Pendukung_Monev'] = null;
+		}
+		
 		$this->pengajuan_m->sendNotifToBySlug($ar_catatan['Id_Pengajuan_Pengadaan'], 'kabag');
 
 		$this->pengajuan_m->UpdateProgress($ar_catatan['Id_Pengajuan_Pengadaan'], $ar);
@@ -86,8 +92,8 @@ class Pengajuan extends CI_Controller {
 		$this->user_m->createLog('Mengirim pengajuan ke Kabag dengan pin '. $this->pengajuan_m->getPIN($this->input->post("Id_Pengajuan_Pengadaan")));
 
 
-		$this->session->set_flashdata('pesan', array('tipe' => 'success', 'isi' => 'Pengajuan pengadaan berhasil dikirim ke Kabag'));		
-		return redirect('monev/pengajuan/');
+		$this->session->set_flashdata('pesan', array('tipe' => 'success', 'isi' => 'Pengajuan pengadaan berhasil verifikasi dan dikirim ke PPK'));		
+		return redirect('ksb_pel/pengajuan/');
 
 	}
 }

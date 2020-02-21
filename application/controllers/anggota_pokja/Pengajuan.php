@@ -27,7 +27,8 @@ class Pengajuan extends CI_Controller {
 	public function detail($Id_Pengajuan_Pengadaan){
 		$this->pengajuan_m->reset_notif($Id_Pengajuan_Pengadaan);
 		
-		$pengajuan = $this->db->from('pengajuan_pengadaan')
+		$pengajuan = $this->db->select('*, pengajuan_pengadaan.Id_Pokja AS Id_Pok')
+					->from('pengajuan_pengadaan')
 					->join('jabatan_sistem', 'pengajuan_pengadaan.Slug_Posisi = jabatan_sistem.Slug_Jabatan')
 					->join('user', 'pengajuan_pengadaan.Id_User = user.Id_User')
 					->where('pengajuan_pengadaan.Deleted_At', null)

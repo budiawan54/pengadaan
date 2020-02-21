@@ -12,7 +12,14 @@
 			
 			<div class="alert alert-success">
 				<h4 class="title semibold">Hasil Kajian dari Pokja</h4>
-				<?php echo $pengajuan['Hasil_Kaji_Pokja']; ?>
+				<ul>
+				<?php 
+					$kaji = json_decode($pengajuan['Hasil_Kaji_Pokja']);
+					foreach ($kaji as $key => $value) {
+						echo '<li>' . $value->isi  . '</li>';
+					}
+				?>
+				</ul>
 			</div>
 		</div>
 	<!-- <div class="panel-body"> -->
